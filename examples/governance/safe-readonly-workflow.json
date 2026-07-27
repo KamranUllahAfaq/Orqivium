@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "start", "data": {"type": "start"}},
+    {"id": "retrieve", "data": {"type": "knowledge-retrieval"}},
+    {"id": "answer", "data": {"type": "answer"}}
+  ],
+  "edges": [
+    {"source": "start", "target": "retrieve"},
+    {"source": "retrieve", "target": "answer"}
+  ]
+}

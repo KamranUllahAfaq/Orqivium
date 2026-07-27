@@ -1,0 +1,17 @@
+[project]
+name = "orqivium-vdb-elasticsearch"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "elasticsearch==8.14.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-elasticsearch)."
+
+[project.entry-points."orqivium.vector_backends"]
+elasticsearch = "orqivium_vdb_elasticsearch.elasticsearch_vector:ElasticSearchVectorFactory"
+elasticsearch-ja = "orqivium_vdb_elasticsearch.elasticsearch_ja_vector:ElasticSearchJaVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

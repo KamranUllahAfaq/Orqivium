@@ -1,0 +1,70 @@
+{
+  "product": "Orqivium",
+  "schema_version": "2.0",
+  "analyzer_version": "2.0.0",
+  "fingerprint_algorithm": "orqivium-semantic-v1+sha256",
+  "policy_revision": "orqivium-governance-v2",
+  "policy_fingerprint": "sha256:10dbc2a60c1a525489bf4da87c6877afe0f5e234a71a5baf4fac84bc977a8536",
+  "audit_id": "orq_bbb9ddc60cd899d3ee0a0b7b",
+  "governance_mode": "high_assurance",
+  "semantic_fingerprint": "sha256:007a2520b80cc2fd5df496c3a432acc36673470fc6722f557f0ed4771d5a8a67",
+  "risk_score": 49,
+  "risk_level": "high",
+  "node_count": 4,
+  "edge_count": 3,
+  "node_type_counts": {
+    "end": 1,
+    "http-request": 1,
+    "knowledge-retrieval": 1,
+    "trigger-webhook": 1
+  },
+  "findings": [
+    {
+      "code": "agency.human_oversight.missing",
+      "severity": "high",
+      "title": "High-impact actions lack prior human approval",
+      "detail": "Action-capable tools or agents can execute without an explicit Human Input approval gate.",
+      "recommendation": "Place a Human Input approval node immediately before high-impact actions and bind approval to the exact action payload.",
+      "node_ids": [
+        "send"
+      ],
+      "evidence": {}
+    },
+    {
+      "code": "security.indirect_prompt_injection.action_path",
+      "severity": "high",
+      "title": "Retrieved content can influence an unapproved external action",
+      "detail": "A knowledge-retrieval node has a path to an action-capable tool or agent without a human approval boundary. Malicious retrieved content could steer downstream actions.",
+      "recommendation": "Treat retrieved content as untrusted, isolate instructions from data, validate tool arguments, and require approval before side effects.",
+      "node_ids": [
+        "retrieve",
+        "send"
+      ],
+      "evidence": {
+        "paths": [
+          {
+            "retrieval_node": "retrieve",
+            "action_node": "send"
+          }
+        ]
+      }
+    },
+    {
+      "code": "security.webhook.side_effect_path",
+      "severity": "medium",
+      "title": "Webhook-triggered path can perform external actions",
+      "detail": "Internet-originated webhook data can reach a mutating HTTP request, tool, or agent action.",
+      "recommendation": "Require authenticated webhooks, replay protection, schema validation, rate limits, and idempotency keys.",
+      "node_ids": [
+        "send",
+        "webhook"
+      ],
+      "evidence": {}
+    }
+  ],
+  "blocked": true,
+  "blocking_reasons": [
+    "high-assurance findings: agency.human_oversight.missing, security.indirect_prompt_injection.action_path",
+    "risk score 49 exceeds policy threshold 45"
+  ]
+}

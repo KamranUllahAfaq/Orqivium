@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-couchbase"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "couchbase~=4.6.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-couchbase)."
+
+[project.entry-points."orqivium.vector_backends"]
+couchbase = "orqivium_vdb_couchbase.couchbase_vector:CouchbaseVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

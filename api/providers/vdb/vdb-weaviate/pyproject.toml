@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-weaviate"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "weaviate-client==4.20.5",
+]
+description = "Orqivium vector store backend (orqivium-vdb-weaviate)."
+
+[project.entry-points."orqivium.vector_backends"]
+weaviate = "orqivium_vdb_weaviate.weaviate_vector:WeaviateVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

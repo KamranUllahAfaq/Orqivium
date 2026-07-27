@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "product": {
+    "name": "Orqivium",
+    "version": "2.0.0",
+    "tagline": "Governed intelligence, engineered to execute.",
+    "category": "Governed agentic-systems engineering platform",
+    "cli": "orqctl"
+  },
+  "ownership": {
+    "builder": "Kamran Ullah Afaq",
+    "public_handle": "@kamranullahafaq",
+    "record": "OWNERSHIP.md",
+    "scope": "Orqivium-specific product identity, architecture, governance, integrations, documentation, schemas, examples, namespace migration, validation, and release engineering",
+    "distribution_boundary": "Pre-existing and third-party source remains governed by LICENSE and legal/ records."
+  },
+  "release": {
+    "date": "2026-07-27",
+    "archive": "orqivium-v2.0.0.zip",
+    "checksum_sidecar": "orqivium-v2.0.0.zip.sha256",
+    "status": "release-candidate validated in a dependency-limited environment"
+  },
+  "identity": {
+    "api_package": "orqivium-api",
+    "web_package": "orqivium-web",
+    "agent_package": "orqivium-agent",
+    "agent_runtime": "orqivium-agent-runtime",
+    "cli_package": "@orqivium/cli",
+    "cli_binary": "orqctl",
+    "node_sdk": "orqivium-client",
+    "ui_package": "@orqivium/orqivium-ui",
+    "environment_prefix": "ORQIVIUM_",
+    "application_name": "orqivium/core"
+  },
+  "governance": {
+    "analyzer_version": "2.0.0",
+    "schema_version": "2.0",
+    "policy_revision": "orqivium-governance-v2",
+    "fingerprint_algorithm": "orqivium-semantic-v1+sha256",
+    "publication_integrations": [
+      "application workflows",
+      "reusable workflow snippets",
+      "RAG knowledge pipelines"
+    ],
+    "profiles": [
+      "off",
+      "advisory",
+      "standard",
+      "high_assurance"
+    ],
+    "evidence": [
+      "semantic workflow fingerprint",
+      "deterministic audit ID",
+      "policy fingerprint",
+      "risk score",
+      "structured findings",
+      "JSON report",
+      "Markdown report"
+    ]
+  },
+  "validation": {
+    "overall": "PASS",
+    "checks_passed": 17,
+    "checks_total": 17,
+    "focused_tests": "11 passed",
+    "identity_files_scanned": 13238,
+    "docker_compose_services": 38,
+    "documentation_links_resolved": 21,
+    "report": "VALIDATION_REPORT.md",
+    "limitations": [
+      "Full dependency resolution unavailable without network access.",
+      "Repository pins Python 3.12; validation host provided Python 3.13.",
+      "Frontend build, browser E2E, full backend integration, and production load tests were not executed."
+    ]
+  },
+  "source_tree": {
+    "files_excluding_manifest": 13315,
+    "directories": 3363,
+    "bytes_excluding_manifest": 123971671,
+    "human_size_mib": 118.23,
+    "top_extensions": {
+      ".tsx": 4362,
+      ".py": 3637,
+      ".ts": 2427,
+      ".json": 1329,
+      ".svg": 625,
+      ".md": 158,
+      ".js": 118,
+      ".yml": 93,
+      ".png": 71,
+      ".css": 69,
+      ".html": 61,
+      "<none>": 54,
+      ".go": 50,
+      ".toml": 46,
+      ".example": 45,
+      ".feature": 35,
+      ".sh": 27,
+      ".yaml": 27,
+      ".mjs": 13,
+      ".mdx": 12,
+      ".typed": 9,
+      ".txt": 8,
+      ".template": 6,
+      ".env": 3,
+      ".lock": 3
+    }
+  },
+  "integrity": {
+    "license_sha256": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3",
+    "critical_files_sha256": {
+      "README.md": "c7a7299e49f77258753db156fceb2a37073fc0be0e62a80c390a3f32ec3e954f",
+      "OWNERSHIP.md": "9480738e931e027a93e764f4f792c334bc5c3ae7e3f64d28ee66775e09699e3f",
+      "PROJECT_AUDIT.md": "882f3aff40458f16e93e7d7bb44df21692235cc91f78d3f1f28f76d9ffdc5f4a",
+      "VALIDATION_REPORT.md": "2e1803dc6566fbe74091ba5ef7ec3df32481ed27193c4803ce7a9e4bbdde825d",
+      "VERSION": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "LICENSE": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3",
+      "LICENSE-ORQIVIUM.md": "46cabb6b0ef2a13788e0b4f0d765259aff2948aa9a479ce53ef29675a480743c",
+      "BRANDING.md": "a21fa0bab165572e0aba2984e6ad2de99d6456f5342b9abf687299f32bd23f23",
+      "SECURITY.md": "c41ef2c8bbdad83436f9c5fb50ef577a0a57ac6fa611d0811d349845e4175a8f",
+      "api/core/governance/analyzer.py": "beb616099554a7ba22cc7da7337614fb132d978e09f81d7aeeccce03214fe92d",
+      "api/core/governance/models.py": "706c6f48ad2fec6a3c48d47f7266c92c0e86ca55bedb0f0b6b77d5b385f5a7ea",
+      "api/core/governance/fingerprint.py": "95db1510d785301533b0efed7914c688b936165ff4948572eb0b3af3f3523932",
+      "api/core/governance/policy.py": "4afc4785a96943e293c5bbdc72a8526dd5ddcc8742afcceee59e2e02b8e84345",
+      "docs/schemas/workflow-audit-report.schema.json": "168946aed168acbaa6be61e12cb54ff719471e06588d6cbbe5358f0025f03fb5",
+      "scripts/validate_orqivium_release.py": "bf70fbdf62f054fda5336f707a18b3d49cc6804a071cc5724a8c1d7b5bb8f092",
+      "scripts/orqivium_workflow_audit.py": "393e130e7e020c8ecc343ea39d6d3e1b8e59aa9c1487064b855eae1a2787ebe9",
+      "docker/docker-compose.yaml": "0a57aa22a9c8bfd9e9102df8d2c40e58e240ca2be24aa6249c2d2d93f2dd4f3e",
+      "web/public/logo/logo.svg": "e59a1788343079ea0ca8aeaff33e78de34995aecda6994dc483b68fd52c0283a"
+    }
+  },
+  "legal": {
+    "distribution_license": "LICENSE",
+    "orqivium_specific_notice": "LICENSE-ORQIVIUM.md",
+    "source_provenance": "legal/SOURCE_PROVENANCE.md",
+    "third_party_authors": "legal/THIRD_PARTY_AUTHORS",
+    "third_party_notices": "legal/THIRD_PARTY_NOTICES.md"
+  },
+  "principal_documents": [
+    "README.md",
+    "OWNERSHIP.md",
+    "PROJECT_AUDIT.md",
+    "BRANDING.md",
+    "RELEASE_NOTES.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "VALIDATION_REPORT.md",
+    "docs/architecture/SYSTEM_ARCHITECTURE.md",
+    "docs/architecture/END_TO_END_FLOW_CATALOG.md",
+    "docs/architecture/GOVERNANCE_AND_EVALUATION.md",
+    "docs/architecture/THREAT_MODEL.md",
+    "docs/research/RESEARCH_RATIONALE.md"
+  ]
+}

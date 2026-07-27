@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-hologres"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "holo-search-sdk==0.4.2",
+]
+description = "Orqivium vector store backend (orqivium-vdb-hologres)."
+
+[project.entry-points."orqivium.vector_backends"]
+hologres = "orqivium_vdb_hologres.hologres_vector:HologresVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

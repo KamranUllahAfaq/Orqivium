@@ -1,0 +1,14 @@
+[project]
+name = "orqivium-vdb-opengauss"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = []
+description = "Orqivium vector store backend (orqivium-vdb-opengauss)."
+
+[project.entry-points."orqivium.vector_backends"]
+opengauss = "orqivium_vdb_opengauss.opengauss:OpenGaussFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

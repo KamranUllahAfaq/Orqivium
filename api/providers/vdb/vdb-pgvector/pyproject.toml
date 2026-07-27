@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-pgvector"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "pgvector==0.4.2",
+]
+description = "Orqivium vector store backend (orqivium-vdb-pgvector)."
+
+[project.entry-points."orqivium.vector_backends"]
+pgvector = "orqivium_vdb_pgvector.pgvector:PGVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

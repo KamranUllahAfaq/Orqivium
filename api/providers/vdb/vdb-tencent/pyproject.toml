@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-tencent"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "tcvectordb~=2.1.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-tencent)."
+
+[project.entry-points."orqivium.vector_backends"]
+tencent = "orqivium_vdb_tencent.tencent_vector:TencentVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

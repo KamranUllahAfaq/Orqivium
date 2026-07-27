@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-oracle"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "oracledb==3.4.2",
+]
+description = "Orqivium vector store backend (orqivium-vdb-oracle)."
+
+[project.entry-points."orqivium.vector_backends"]
+oracle = "orqivium_vdb_oracle.oraclevector:OracleVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

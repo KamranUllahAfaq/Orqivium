@@ -1,0 +1,24 @@
+{
+  "prefix": "custom-public",
+  "name": "Orqivium Custom Public",
+  "total": 150,
+  "version": "0.0.0-private",
+  "author": {
+    "name": "Kamran Ullah Afaq",
+    "url": "https://github.com/kamranullahafaq/orqivium"
+  },
+  "license": {
+    "title": "Modified Apache 2.0",
+    "spdx": "Apache-2.0",
+    "url": "https://github.com/kamranullahafaq/orqivium/blob/main/LICENSE"
+  },
+  "samples": [
+    "agent-building-blocks",
+    "avatar-user",
+    "billing-ar-cube-1",
+    "billing-asterisk",
+    "billing-aws-marketplace-dark",
+    "billing-aws-marketplace-light"
+  ],
+  "palette": false
+}

@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-myscale"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "clickhouse-connect==0.15.1",
+]
+description = "Orqivium vector store backend (orqivium-vdb-myscale)."
+
+[project.entry-points."orqivium.vector_backends"]
+myscale = "orqivium_vdb_myscale.myscale_vector:MyScaleVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

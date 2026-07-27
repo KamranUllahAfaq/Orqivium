@@ -1,0 +1,15 @@
+[project]
+name = "orqivium-vdb-chroma"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+dependencies = [
+    "chromadb==0.5.20",
+]
+description = "Orqivium vector store backend (orqivium-vdb-chroma)."
+
+[project.entry-points."orqivium.vector_backends"]
+chroma = "orqivium_vdb_chroma.chroma_vector:ChromaVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

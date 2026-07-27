@@ -1,0 +1,22 @@
+{
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "autoload": {
+    "files": [
+      "orqivium-client.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Kamran Ullah Afaq",
+      "homepage": "https://x.com/kamranullahafaq",
+      "role": "Builder and maintainer"
+    }
+  ],
+  "homepage": "https://orqivium.local",
+  "support": {
+    "source": "https://github.com/kamranullahafaq/orqivium"
+  }
+}

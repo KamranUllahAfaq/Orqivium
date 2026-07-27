@@ -1,0 +1,32 @@
+{
+  "name": "migrate-no-unchecked-indexed-access",
+  "version": "0.0.0-private",
+  "private": true,
+  "bin": {
+    "migrate-no-unchecked-indexed-access": "./bin/migrate-no-unchecked-indexed-access.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vp pack",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@typescript/native": "catalog:",
+    "typescript": "catalog:"
+  },
+  "devDependencies": {
+    "@orqivium/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "author": "Kamran Ullah Afaq (@kamranullahafaq)",
+  "maintainers": [
+    "Kamran Ullah Afaq (@kamranullahafaq)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamranullahafaq/orqivium.git"
+  },
+  "homepage": "https://orqivium.local"
+}

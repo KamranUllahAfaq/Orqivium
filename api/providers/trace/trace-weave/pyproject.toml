@@ -1,0 +1,12 @@
+[project]
+name = "orqivium-trace-weave"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+dependencies = [
+    "weave==0.52.36",
+]
+description = "Orqivium ops tracing provider (Weave)."
+
+[tool.setuptools.packages.find]
+where = ["src"]

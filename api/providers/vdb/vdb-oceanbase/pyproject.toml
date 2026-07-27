@@ -1,0 +1,18 @@
+[project]
+name = "orqivium-vdb-oceanbase"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "pyobvector==0.2.25",
+    "mysql-connector-python>=9.3.0,<10.0.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-oceanbase)."
+
+[project.entry-points."orqivium.vector_backends"]
+oceanbase = "orqivium_vdb_oceanbase.oceanbase_vector:OceanBaseVectorFactory"
+seekdb = "orqivium_vdb_oceanbase.oceanbase_vector:OceanBaseVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]
