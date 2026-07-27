@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-matrixone"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "mo-vector==0.1.13",
+]
+description = "Orqivium vector store backend (orqivium-vdb-matrixone)."
+
+[project.entry-points."orqivium.vector_backends"]
+matrixone = "orqivium_vdb_matrixone.matrixone_vector:MatrixoneVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

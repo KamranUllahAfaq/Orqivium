@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-vikingdb"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "volcengine-compat~=1.0.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-vikingdb)."
+
+[project.entry-points."orqivium.vector_backends"]
+vikingdb = "orqivium_vdb_vikingdb.vikingdb_vector:VikingDBVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

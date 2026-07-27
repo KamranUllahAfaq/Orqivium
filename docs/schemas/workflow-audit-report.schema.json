@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:orqivium:schema:workflow-audit-report:2.0",
+  "title": "Orqivium Workflow Audit Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "audit_id",
+    "policy_fingerprint",
+    "policy_revision",
+    "product",
+    "schema_version",
+    "analyzer_version",
+    "fingerprint_algorithm",
+    "governance_mode",
+    "semantic_fingerprint",
+    "risk_score",
+    "risk_level",
+    "node_count",
+    "edge_count",
+    "node_type_counts",
+    "findings",
+    "blocked",
+    "blocking_reasons"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "analyzer_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "fingerprint_algorithm": {
+      "const": "orqivium-semantic-v1+sha256"
+    },
+    "governance_mode": {
+      "enum": [
+        "off",
+        "advisory",
+        "standard",
+        "high_assurance"
+      ]
+    },
+    "semantic_fingerprint": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "risk_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "risk_level": {
+      "enum": [
+        "low",
+        "moderate",
+        "high",
+        "critical"
+      ]
+    },
+    "node_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "edge_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "node_type_counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "severity",
+          "title",
+          "detail",
+          "recommendation",
+          "node_ids",
+          "evidence"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "recommendation": {
+            "type": "string"
+          },
+          "node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "evidence": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "blocked": {
+      "type": "boolean"
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "product": {
+      "const": "Orqivium"
+    },
+    "policy_revision": {
+      "const": "orqivium-governance-v2"
+    },
+    "policy_fingerprint": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$"
+    },
+    "audit_id": {
+      "type": "string",
+      "pattern": "^orq_[a-f0-9]{24}$"
+    }
+  }
+}

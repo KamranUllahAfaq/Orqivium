@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-vastbase"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "pyobvector==0.2.25",
+]
+description = "Orqivium vector store backend (orqivium-vdb-vastbase)."
+
+[project.entry-points."orqivium.vector_backends"]
+vastbase = "orqivium_vdb_vastbase.vastbase_vector:VastbaseVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

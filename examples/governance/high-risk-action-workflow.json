@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"id": "webhook", "data": {"type": "trigger-webhook"}},
+    {"id": "retrieve", "data": {"type": "knowledge-retrieval"}},
+    {"id": "send", "data": {"type": "http-request", "method": "POST"}},
+    {"id": "end", "data": {"type": "end"}}
+  ],
+  "edges": [
+    {"source": "webhook", "target": "retrieve"},
+    {"source": "retrieve", "target": "send"},
+    {"source": "send", "target": "end"}
+  ]
+}

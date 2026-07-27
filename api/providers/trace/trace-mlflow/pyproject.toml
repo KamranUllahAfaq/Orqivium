@@ -1,0 +1,12 @@
+[project]
+name = "orqivium-trace-mlflow"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+dependencies = [
+    "mlflow-skinny>=3.11.1,<4.0.0",
+]
+description = "Orqivium ops tracing provider (MLflow / Databricks)."
+
+[tool.setuptools.packages.find]
+where = ["src"]

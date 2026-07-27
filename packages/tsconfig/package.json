@@ -1,0 +1,20 @@
+{
+  "name": "@orqivium/tsconfig",
+  "version": "0.0.0-private",
+  "private": true,
+  "exports": {
+    "./base.json": "./base.json",
+    "./nextjs.json": "./nextjs.json",
+    "./node.json": "./node.json",
+    "./react.json": "./react.json"
+  },
+  "author": "Kamran Ullah Afaq (@kamranullahafaq)",
+  "maintainers": [
+    "Kamran Ullah Afaq (@kamranullahafaq)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamranullahafaq/orqivium.git"
+  },
+  "homepage": "https://orqivium.local"
+}

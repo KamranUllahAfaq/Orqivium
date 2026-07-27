@@ -1,0 +1,3 @@
+{
+  "extends": "@orqivium/tsconfig/node.json"
+}

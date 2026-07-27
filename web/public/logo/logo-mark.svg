@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-label="Orqivium mark">
+  <defs><linearGradient id="g" x1="8" y1="8" x2="120" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#1677FF"/><stop offset="1" stop-color="#7C3AED"/></linearGradient></defs>
+  <rect x="8" y="8" width="112" height="112" rx="34" fill="url(#g)"/>
+  <path d="M36 48L64 31L92 48V80L64 97L36 80V48Z" stroke="white" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="36" cy="48" r="8" fill="white"/><circle cx="92" cy="48" r="8" fill="white"/><circle cx="64" cy="97" r="8" fill="white"/>
+  <path d="M44 52L84 76M84 52L44 76" stroke="white" stroke-width="6" stroke-linecap="round" opacity=".94"/>
+</svg>

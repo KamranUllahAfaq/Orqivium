@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-pgvecto-rs"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "pgvecto-rs[sqlalchemy]==0.2.2",
+]
+description = "Orqivium vector store backend (orqivium-vdb-pgvecto-rs)."
+
+[project.entry-points."orqivium.vector_backends"]
+pgvecto-rs = "orqivium_vdb_pgvecto_rs.pgvecto_rs:PGVectoRSFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

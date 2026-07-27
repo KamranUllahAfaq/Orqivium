@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-tidb-vector"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "tidb-vector==0.0.15",
+]
+description = "Orqivium vector store backend (orqivium-vdb-tidb-vector)."
+
+[project.entry-points."orqivium.vector_backends"]
+tidb_vector = "orqivium_vdb_tidb_vector.tidb_vector:TiDBVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

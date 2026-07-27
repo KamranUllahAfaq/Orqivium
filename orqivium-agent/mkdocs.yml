@@ -1,0 +1,74 @@
+site_name: Orqivium Agent
+site_description: Agent runtime and Agenton composition framework documentation
+strict: true
+
+repo_name: kamranullahafaq/orqivium
+repo_url: https://github.com/kamranullahafaq/orqivium
+edit_uri: edit/main/orqivium-agent/docs/
+
+nav:
+  - Home: index.md
+  - Agenton:
+      - Overview: agenton/index.md
+      - Guide: agenton/guide/index.md
+      - Examples: agenton/examples/index.md
+  - Orqivium Agent:
+      - Overview: orqivium-agent/index.md
+      - Concepts:
+          - Agent Run Lifecycle: orqivium-agent/concepts/run-lifecycle/index.md
+      - User Manual:
+          - Get Started: orqivium-agent/get-started/index.md
+          - Prompt Layer: orqivium-agent/user-manual/prompt-layer/index.md
+          - Execution Context Layer: orqivium-agent/user-manual/execution-context-layer/index.md
+          - Shell Layer: orqivium-agent/user-manual/shell-layer/index.md
+          - Ask Human Layer: orqivium-agent/user-manual/ask-human-layer/index.md
+          - Plugin LLM Layer: orqivium-agent/user-manual/plugin-llm-layer/index.md
+          - Plugin Tool Layer: orqivium-agent/user-manual/plugin-tool-layer/index.md
+          - History Layer: orqivium-agent/user-manual/history-layer/index.md
+          - Structured Output Layer: orqivium-agent/user-manual/structured-output-layer/index.md
+      - Operations Guide: orqivium-agent/guide/index.md
+      - Examples: orqivium-agent/examples/index.md
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tracking
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths:
+            - src
+          options:
+            docstring_style: google
+            members_order: source
+            separate_signature: true
+            show_signature_annotations: true
+            signature_crossrefs: true
+
+watch:
+  - src
+  - examples
+
+hooks:
+  - docs/.hooks/main.py

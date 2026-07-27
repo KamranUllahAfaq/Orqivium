@@ -1,0 +1,14 @@
+[project]
+name = "orqivium-vdb-relyt"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = []
+description = "Orqivium vector store backend (orqivium-vdb-relyt)."
+
+[project.entry-points."orqivium.vector_backends"]
+relyt = "orqivium_vdb_relyt.relyt_vector:RelytVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

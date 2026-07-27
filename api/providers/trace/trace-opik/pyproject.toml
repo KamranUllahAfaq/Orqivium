@@ -1,0 +1,12 @@
+[project]
+name = "orqivium-trace-opik"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+dependencies = [
+    "opik~=1.11.2",
+]
+description = "Orqivium ops tracing provider (Opik)."
+
+[tool.setuptools.packages.find]
+where = ["src"]

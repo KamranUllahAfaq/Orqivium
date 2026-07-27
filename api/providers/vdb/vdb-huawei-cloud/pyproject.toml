@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-huawei-cloud"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "elasticsearch==8.14.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-huawei-cloud)."
+
+[project.entry-points."orqivium.vector_backends"]
+huawei_cloud = "orqivium_vdb_huawei_cloud.huawei_cloud_vector:HuaweiCloudVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

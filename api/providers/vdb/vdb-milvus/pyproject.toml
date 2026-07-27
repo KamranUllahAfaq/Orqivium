@@ -1,0 +1,16 @@
+[project]
+name = "orqivium-vdb-milvus"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+
+dependencies = [
+    "pymilvus~=2.6.12",
+]
+description = "Orqivium vector store backend (orqivium-vdb-milvus)."
+
+[project.entry-points."orqivium.vector_backends"]
+milvus = "orqivium_vdb_milvus.milvus_vector:MilvusVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,15 @@
+[project]
+name = "orqivium-vdb-alibabacloud-mysql"
+version = "0.0.1"
+authors = [{ name = "Kamran Ullah Afaq" }]
+maintainers = [{ name = "Kamran Ullah Afaq" }]
+dependencies = [
+    "mysql-connector-python>=9.3.0,<10.0.0",
+]
+description = "Orqivium vector store backend (orqivium-vdb-alibabacloud-mysql)."
+
+[project.entry-points."orqivium.vector_backends"]
+alibabacloud_mysql = "orqivium_vdb_alibabacloud_mysql.alibabacloud_mysql_vector:AlibabaCloudMySQLVectorFactory"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,66 @@
+{
+  "name": "orqivium-client",
+  "version": "2.0.0",
+  "description": "Official Node.js SDK for the Orqivium API.",
+  "keywords": [
+    "AI",
+    "API",
+    "Orqivium",
+    "Orqivium.AI",
+    "LLM",
+    "SDK"
+  ],
+  "homepage": "/",
+  "bugs": {
+    "url": "https://github.com/kamranullahafaq/orqivium/issues"
+  },
+  "license": "MIT",
+  "author": "Kamran Ullah Afaq (@kamranullahafaq)",
+  "contributors": [
+    "Kamran Ullah Afaq (@kamranullahafaq)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamranullahafaq/orqivium.git",
+    "directory": "sdks/nodejs-client"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/index.d.ts",
+    "dist/index.js"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vp pack",
+    "type-check": "tsc",
+    "test": "vp test",
+    "test:coverage": "vp test --coverage",
+    "publish:check": "./scripts/publish.sh --dry-run",
+    "publish:npm": "./scripts/publish.sh"
+  },
+  "devDependencies": {
+    "@orqivium/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "@typescript/native": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "vitest": "catalog:"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "maintainers": [
+    "Kamran Ullah Afaq (@kamranullahafaq)"
+  ]
+}
