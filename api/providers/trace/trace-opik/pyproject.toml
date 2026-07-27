@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 dependencies = [
-    "opik~=1.11.2",
+    "opik~=2.2.6",
 ]
 description = "Orqivium ops tracing provider (Opik)."
 
