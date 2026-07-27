@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 dependencies = [
-    "mysql-connector-python>=9.3.0,<10.0.0",
+    "mysql-connector-python>=9.7.0,<10.0.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-alibabacloud-mysql)."
 

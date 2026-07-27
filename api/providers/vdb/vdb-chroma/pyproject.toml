@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 dependencies = [
-    "chromadb==0.5.20",
+    "chromadb==1.5.9",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-chroma)."
 
