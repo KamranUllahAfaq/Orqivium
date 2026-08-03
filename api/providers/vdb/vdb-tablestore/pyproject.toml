@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "tablestore==6.4.4",
+    "tablestore==6.4.8",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-tablestore)."
 

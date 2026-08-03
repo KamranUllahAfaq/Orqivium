@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "qdrant-client==1.9.0",
+    "qdrant-client==1.18.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-qdrant)."
 
