@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "intersystems-irispython>=5.1.0,<6.0.0",
+    "intersystems-irispython>=5.4.0,<6.0.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-iris)."
 

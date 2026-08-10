@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 dependencies = [
-    "pymochow==2.4.0",
+    "pymochow==2.4.1",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-baidu)."
 
