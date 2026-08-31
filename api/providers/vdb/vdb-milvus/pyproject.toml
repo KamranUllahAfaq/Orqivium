@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "pymilvus~=2.6.12",
+    "pymilvus>=2.6.12,<3.1.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-milvus)."
 

@@ -6,7 +6,7 @@ maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
     "pyobvector==0.2.25",
-    "mysql-connector-python>=9.3.0,<10.0.0",
+    "mysql-connector-python>=9.3.0,<27.0.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-oceanbase)."
 

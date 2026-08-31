@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "elasticsearch==8.14.0",
+    "elasticsearch==9.5.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-huawei-cloud)."
 

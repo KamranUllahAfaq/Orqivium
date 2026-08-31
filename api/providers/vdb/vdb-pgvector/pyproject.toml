@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "pgvector==0.4.2",
+    "pgvector==0.5.0",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-pgvector)."
 
