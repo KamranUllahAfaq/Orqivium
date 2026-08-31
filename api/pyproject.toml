@@ -280,7 +280,7 @@ vdb-vastbase = ["orqivium-vdb-vastbase"]
 vdb-vikingdb = ["orqivium-vdb-vikingdb"]
 vdb-weaviate = ["orqivium-vdb-weaviate"]
 # Optional client used by some tests / integrations (not a vector backend plugin)
-vdb-xinference = ["xinference-client>=2.7.0,<3.0.0"]
+vdb-xinference = ["xinference-client>=2.7.0,<4.0.0"]
 
 trace-all = [
     "orqivium-trace-aliyun",

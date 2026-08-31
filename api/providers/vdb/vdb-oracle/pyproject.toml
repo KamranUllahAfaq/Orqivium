@@ -5,7 +5,7 @@ authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 
 dependencies = [
-    "oracledb==3.4.2",
+    "oracledb==4.0.2",
 ]
 description = "Orqivium vector store backend (orqivium-vdb-oracle)."
 
