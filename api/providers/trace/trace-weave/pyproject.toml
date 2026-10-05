@@ -4,7 +4,7 @@ version = "0.0.1"
 authors = [{ name = "Kamran Ullah Afaq" }]
 maintainers = [{ name = "Kamran Ullah Afaq" }]
 dependencies = [
-    "weave==0.52.36",
+    "weave==0.53.11",
 ]
 description = "Orqivium ops tracing provider (Weave)."
 
