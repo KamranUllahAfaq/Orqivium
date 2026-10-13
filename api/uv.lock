@@ -410,7 +410,7 @@ wheels = [
 
 [[package]]
 name = "azure-identity"
-version = "1.25.3"
+version = "1.26.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
@@ -419,14 +419,14 @@ dependencies = [
     { name = "msal-extensions" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c5/0e/3a63efb48aa4a5ae2cfca61ee152fbcb668092134d3eb8bfda472dd5c617/azure_identity-1.25.3.tar.gz", hash = "sha256:ab23c0d63015f50b630ef6c6cf395e7262f439ce06e5d07a64e874c724f8d9e6", size = 286304, upload-time = "2026-03-13T01:12:20.892Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e6/87/e88098a024d74b7434de5b110c261da024fe5d6c139f1847f6f8a2b76678/azure_identity-1.26.0.tar.gz", hash = "sha256:61b4538b87df10d2d6d44b77cd5ea28a8929fd4929d58b45bf3f230f7daba02e", size = 310151, upload-time = "2026-10-01T14:17:47.825Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/49/9a/417b3a533e01953a7c618884df2cb05a71e7b68bdbce4fbdb62349d2a2e8/azure_identity-1.25.3-py3-none-any.whl", hash = "sha256:f4d0b956a8146f30333e071374171f3cfa7bdb8073adb8c3814b65567aa7447c", size = 192138, upload-time = "2026-03-13T01:12:22.951Z" },
+    { url = "https://files.pythonhosted.org/packages/b2/d5/ae45ce8009d0d015304b206c7c4a6cbab02c03f8f07eedefb32b099ccee3/azure_identity-1.26.0-py3-none-any.whl", hash = "sha256:3c60d9682b3ac01507388d474cb5a5ffbe54152a96b6cdcaa7013da9315cf186", size = 195958, upload-time = "2026-10-01T14:17:49.705Z" },
 ]
 
 [[package]]
 name = "azure-storage-blob"
-version = "12.30.0"
+version = "12.31.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
@@ -434,9 +434,9 @@ dependencies = [
     { name = "isodate" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3b/48/84a820d898267f662b5c06f7cd76fdb8a9e272b44aa9376cef3ec0f6a294/azure_storage_blob-12.30.0.tar.gz", hash = "sha256:2cd74d4d5731e5eb6b8d5c5056ee115a5e88f8fdf22517b739836fda685018be", size = 618229, upload-time = "2026-06-08T11:45:35.575Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/26/ca/5299cedef5957dd838d4dc46f97bea37335bb39f6610d72b27e1a3317650/azure_storage_blob-12.31.0.tar.gz", hash = "sha256:997b393cfcbdc4b186d5911790d91f80387f7edc12c4d73eab963a2d26e5b2a9", size = 670868, upload-time = "2026-09-30T21:23:22.837Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5e/0b/e106f0fd7fa785867d9ffcc47dc9e6237c0e58f51058473b777487a98edc/azure_storage_blob-12.30.0-py3-none-any.whl", hash = "sha256:d415ac50b67a8da6b3ae7e9f1014b1b55cd7aafa0b8d4ca9b380568dc7360423", size = 435610, upload-time = "2026-06-08T11:45:37.213Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/57/d1f45fbccc0dfbe6b6db7e5fa06199e35219c712f3743677bec1b4e7d78b/azure_storage_blob-12.31.0-py3-none-any.whl", hash = "sha256:0c0cb601d3462491d09ea96023cd791bb9dd4b173bf950daf3cff34ff47ba5b5", size = 455738, upload-time = "2026-09-30T21:23:24.944Z" },
 ]
 
 [[package]]
@@ -475,7 +475,7 @@ wheels = [
 
 [[package]]
 name = "bce-python-sdk"
-version = "0.9.72"
+version = "0.9.79"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "crc32c" },
@@ -483,9 +483,9 @@ dependencies = [
     { name = "pycryptodome" },
     { name = "six" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/32/bb/1ccb8b28bfa0802356f8588e479adb61cfd2268b37fabc6c8a805d645cd5/bce_python_sdk-0.9.72.tar.gz", hash = "sha256:d9db568698792d74db4245252d98776eae8c9c5225fc0ba86548dfc52d478fcc", size = 302207, upload-time = "2026-06-08T12:10:32.326Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9d/64/d31e61620ddaecb7039dc7b8f62eb75b95d2281f2d2016b6d6b22396e16f/bce_python_sdk-0.9.79.tar.gz", hash = "sha256:cd77476b43347ed28d0211d5ad557e524e1ec648bd093d57c6a6d3de075a7508", size = 322059, upload-time = "2026-09-01T05:48:52.013Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2d/3a/f84b025ff6c8ec8fe222430cf9201b513dd11ada744417649a64ad295b6d/bce_python_sdk-0.9.72-py3-none-any.whl", hash = "sha256:54a0c121134d6f183f6013d9b33dbf5b6678b0815b6d09616bbceed0202dd797", size = 417800, upload-time = "2026-06-08T12:10:30.556Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/de/52b763b183e23f4dd73811a2dd2664824ae7fc6ceb1aa8dcd3f1102b1094/bce_python_sdk-0.9.79-py3-none-any.whl", hash = "sha256:71799ac8740505e0759d30873f6f1a478fa8f83aedf425d511f1419a5f30082e", size = 440268, upload-time = "2026-09-01T05:48:50.459Z" },
 ]
 
 [[package]]
@@ -598,16 +598,16 @@ wheels = [
 
 [[package]]
 name = "boto3"
-version = "1.43.46"
+version = "1.43.111"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
     { name = "jmespath" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f2/e7/976bf3dfe0aa5d7f31bec2f2cf57c79641620c910a39bc843a237aa9592d/boto3-1.43.46.tar.gz", hash = "sha256:66c0d943b049a46a492ec4ec2ebe73c930b1842c7137bee83aad6d93e95d4d96", size = 112654, upload-time = "2026-07-10T19:32:12.498Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/d3/fa092ae1c109100d0c5c14c69a316cd6d53c05fb57183fa77b1fcdef86ce/boto3-1.43.111.tar.gz", hash = "sha256:5ae342a16c848909cd42d4be404f69d9082e5705460198d4d3327eca5f6cddcb", size = 112656, upload-time = "2026-10-09T19:27:48.995Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/1d/c52e66ff32ba7911664e6c4c2ac62e1c6d2d1e7550c7ac185d3f4b70a8a4/boto3-1.43.46-py3-none-any.whl", hash = "sha256:69453e2c1bcb9fd9806527ab99950cacfc2826cb0dce9a3a0414d19270c06c3c", size = 140031, upload-time = "2026-07-10T19:32:11.129Z" },
+    { url = "https://files.pythonhosted.org/packages/f1/3b/bca42f8f7b76e567c66cc39bacc6bf31b353c9edfbb0fb1f5c534fc65369/boto3-1.43.111-py3-none-any.whl", hash = "sha256:c79994619c8d89e45f6fd0edc5c5b5a70c9358f00423f4c99cb64931f89ecf37", size = 140042, upload-time = "2026-10-09T19:27:47.599Z" },
 ]
 
 [[package]]
@@ -630,16 +630,16 @@ bedrock-runtime = [
 
 [[package]]
 name = "botocore"
-version = "1.43.46"
+version = "1.43.112"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7d/f1/1917891851ac5ac09bb9f4862b8fc9252a009d7c24e8688bb67e4383d9e7/botocore-1.43.46.tar.gz", hash = "sha256:59f2e1ac3cdc66d191cae91c0804bc41847ce817dc8147cf43eaada8f76a5533", size = 15694635, upload-time = "2026-07-10T19:32:00.437Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0e/49/58187bfb510831e4cdafd7ced8e2a748097da81e8b9799d93f8d6ebf9f61/botocore-1.43.112.tar.gz", hash = "sha256:9ce0d70e09fabbb3a2e1126d3ec79ed67d14c88bb3f064e62ab2881d5eaf3c7b", size = 16351533, upload-time = "2026-10-12T19:26:55.249Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0e/f2/4bd8f2f419088feb3ce55f0ca91040ff902f402edfd197450b20a2e1d533/botocore-1.43.46-py3-none-any.whl", hash = "sha256:cb673891e623ae6e6a1bf24d94ef169504f3eb02584adb5d5bee2f6aae819b60", size = 15380350, upload-time = "2026-07-10T19:31:57.616Z" },
+    { url = "https://files.pythonhosted.org/packages/4a/a7/dd4c7cf9cde38db5cd5a295434e25415d814536704fe084ec7ee73e5658b/botocore-1.43.112-py3-none-any.whl", hash = "sha256:1e67a3dcf4a308c695d880b65463a492a971d5b28761b49add92f71e4322130f", size = 16052210, upload-time = "2026-10-12T19:26:50.658Z" },
 ]
 
 [[package]]
@@ -1280,985 +1280,6 @@ wheels = [
 ]
 
 [[package]]
-name = "orqivium-agent"
-version = "2.0.0"
-source = { editable = "../orqivium-agent" }
-dependencies = [
-    { name = "httpx" },
-    { name = "httpx2" },
-    { name = "pydantic" },
-    { name = "pydantic-ai-slim" },
-    { name = "typing-extensions" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "fastapi", marker = "extra == 'server'", specifier = "==0.136.0" },
-    { name = "graphon", marker = "extra == 'server'", specifier = "==0.5.2" },
-    { name = "grpclib", extras = ["protobuf"], marker = "extra == 'grpc'", specifier = ">=0.4.9,<0.5.0" },
-    { name = "httpx", specifier = "==0.28.1" },
-    { name = "httpx2", specifier = ">=2.5.0,<3.0.0" },
-    { name = "jsonschema", marker = "extra == 'server'", specifier = ">=4.23.0,<5.0.0" },
-    { name = "jwcrypto", marker = "extra == 'server'", specifier = ">=1.5.6,<2" },
-    { name = "logfire", extras = ["fastapi", "httpx", "redis"], marker = "extra == 'server'", specifier = ">=4.37.0,<5.0.0" },
-    { name = "protobuf", marker = "extra == 'grpc'", specifier = ">=6.33.5,<7.0.0" },
-    { name = "pydantic", specifier = ">=2.12.5,<2.13" },
-    { name = "pydantic-ai-slim", specifier = ">=1.102.0,<2.0.0" },
-    { name = "pydantic-ai-slim", extras = ["anthropic", "google", "openai"], marker = "extra == 'server'", specifier = ">=1.85.1,<2.0.0" },
-    { name = "pydantic-settings", marker = "extra == 'server'", specifier = ">=2.12.0,<3.0.0" },
-    { name = "redis", marker = "extra == 'server'", specifier = ">=7.4.0,<8.0.0" },
-    { name = "typing-extensions", specifier = ">=4.12.2,<5.0.0" },
-    { name = "uvicorn", extras = ["standard"], marker = "extra == 'server'", specifier = "==0.46.0" },
-]
-provides-extras = ["grpc", "server"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "basedpyright", specifier = ">=1.39.3" },
-    { name = "coverage", extras = ["toml"], specifier = ">=7.10.7" },
-    { name = "grpcio-tools", specifier = ">=1.81.0,<2.0.0" },
-    { name = "pytest", specifier = ">=9.0.3" },
-    { name = "pytest-examples", specifier = ">=0.0.18" },
-    { name = "pytest-mock", specifier = ">=3.14.0" },
-    { name = "ruff", specifier = ">=0.15.11" },
-]
-docs = [
-    { name = "mkdocs", specifier = ">=1.6.1,<2" },
-    { name = "mkdocs-glightbox", specifier = ">=0.4.0" },
-    { name = "mkdocs-material", specifier = ">=9.7.0" },
-    { name = "mkdocstrings-python", specifier = ">=2.0.0" },
-]
-
-[[package]]
-name = "orqivium-api"
-version = "2.0.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "aliyun-log-python-sdk" },
-    { name = "azure-identity" },
-    { name = "bleach" },
-    { name = "boto3" },
-    { name = "celery" },
-    { name = "croniter" },
-    { name = "orqivium-agent" },
-    { name = "fastopenapi", extra = ["flask"] },
-    { name = "flask" },
-    { name = "flask-compress" },
-    { name = "flask-cors" },
-    { name = "flask-login" },
-    { name = "flask-migrate" },
-    { name = "flask-orjson" },
-    { name = "flask-restx" },
-    { name = "gevent" },
-    { name = "gevent-websocket" },
-    { name = "gmpy2" },
-    { name = "google-api-python-client" },
-    { name = "google-cloud-aiplatform" },
-    { name = "graphon" },
-    { name = "gunicorn" },
-    { name = "httpx", extra = ["socks"] },
-    { name = "httpx-sse" },
-    { name = "json-repair" },
-    { name = "opentelemetry-distro" },
-    { name = "opentelemetry-instrumentation-celery" },
-    { name = "opentelemetry-instrumentation-flask" },
-    { name = "opentelemetry-instrumentation-httpx" },
-    { name = "opentelemetry-instrumentation-redis" },
-    { name = "opentelemetry-instrumentation-sqlalchemy" },
-    { name = "opentelemetry-propagator-b3" },
-    { name = "psycogreen" },
-    { name = "psycopg2-binary" },
-    { name = "python-socketio" },
-    { name = "readabilipy" },
-    { name = "redis", extra = ["hiredis"] },
-    { name = "resend" },
-    { name = "sendgrid" },
-    { name = "sseclient-py" },
-    { name = "zstandard" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "boto3-stubs" },
-    { name = "celery-types" },
-    { name = "coverage" },
-    { name = "dotenv-linter" },
-    { name = "faker" },
-    { name = "hypothesis" },
-    { name = "import-linter" },
-    { name = "lxml-stubs" },
-    { name = "mypy" },
-    { name = "pandas-stubs" },
-    { name = "pyrefly" },
-    { name = "pytest" },
-    { name = "pytest-benchmark" },
-    { name = "pytest-cov" },
-    { name = "pytest-env" },
-    { name = "pytest-mock" },
-    { name = "pytest-timeout" },
-    { name = "pytest-xdist" },
-    { name = "ruff" },
-    { name = "scipy-stubs" },
-    { name = "testcontainers" },
-    { name = "types-aiofiles" },
-    { name = "types-beautifulsoup4" },
-    { name = "types-cachetools" },
-    { name = "types-cffi" },
-    { name = "types-colorama" },
-    { name = "types-defusedxml" },
-    { name = "types-deprecated" },
-    { name = "types-docutils" },
-    { name = "types-flask-cors" },
-    { name = "types-flask-migrate" },
-    { name = "types-gevent" },
-    { name = "types-greenlet" },
-    { name = "types-html5lib" },
-    { name = "types-jmespath" },
-    { name = "types-markdown" },
-    { name = "types-oauthlib" },
-    { name = "types-objgraph" },
-    { name = "types-olefile" },
-    { name = "types-openpyxl" },
-    { name = "types-pexpect" },
-    { name = "types-protobuf" },
-    { name = "types-psutil" },
-    { name = "types-psycopg2" },
-    { name = "types-pygments" },
-    { name = "types-pymysql" },
-    { name = "types-pyopenssl" },
-    { name = "types-python-dateutil" },
-    { name = "types-python-http-client" },
-    { name = "types-pywin32" },
-    { name = "types-pyyaml" },
-    { name = "types-redis" },
-    { name = "types-regex" },
-    { name = "types-setuptools" },
-    { name = "types-shapely" },
-    { name = "types-simplejson" },
-    { name = "types-six" },
-    { name = "types-tensorflow" },
-    { name = "types-tqdm" },
-    { name = "types-ujson" },
-    { name = "xinference-client" },
-]
-storage = [
-    { name = "azure-storage-blob" },
-    { name = "bce-python-sdk" },
-    { name = "cos-python-sdk-v5" },
-    { name = "esdk-obs-python" },
-    { name = "google-cloud-storage" },
-    { name = "opendal" },
-    { name = "oss2" },
-    { name = "supabase" },
-    { name = "tos" },
-]
-tools = [
-    { name = "cloudscraper" },
-    { name = "nltk" },
-]
-trace-aliyun = [
-    { name = "orqivium-trace-aliyun" },
-]
-trace-all = [
-    { name = "orqivium-trace-aliyun" },
-    { name = "orqivium-trace-arize-phoenix" },
-    { name = "orqivium-trace-langfuse" },
-    { name = "orqivium-trace-langsmith" },
-    { name = "orqivium-trace-mlflow" },
-    { name = "orqivium-trace-opik" },
-    { name = "orqivium-trace-tencent" },
-    { name = "orqivium-trace-weave" },
-]
-trace-arize-phoenix = [
-    { name = "orqivium-trace-arize-phoenix" },
-]
-trace-langfuse = [
-    { name = "orqivium-trace-langfuse" },
-]
-trace-langsmith = [
-    { name = "orqivium-trace-langsmith" },
-]
-trace-mlflow = [
-    { name = "orqivium-trace-mlflow" },
-]
-trace-opik = [
-    { name = "orqivium-trace-opik" },
-]
-trace-tencent = [
-    { name = "orqivium-trace-tencent" },
-]
-trace-weave = [
-    { name = "orqivium-trace-weave" },
-]
-vdb-alibabacloud-mysql = [
-    { name = "orqivium-vdb-alibabacloud-mysql" },
-]
-vdb-all = [
-    { name = "orqivium-vdb-alibabacloud-mysql" },
-    { name = "orqivium-vdb-analyticdb" },
-    { name = "orqivium-vdb-baidu" },
-    { name = "orqivium-vdb-chroma" },
-    { name = "orqivium-vdb-clickzetta" },
-    { name = "orqivium-vdb-couchbase" },
-    { name = "orqivium-vdb-elasticsearch" },
-    { name = "orqivium-vdb-hologres" },
-    { name = "orqivium-vdb-huawei-cloud" },
-    { name = "orqivium-vdb-iris" },
-    { name = "orqivium-vdb-lindorm" },
-    { name = "orqivium-vdb-matrixone" },
-    { name = "orqivium-vdb-milvus" },
-    { name = "orqivium-vdb-myscale" },
-    { name = "orqivium-vdb-oceanbase" },
-    { name = "orqivium-vdb-opengauss" },
-    { name = "orqivium-vdb-opensearch" },
-    { name = "orqivium-vdb-oracle" },
-    { name = "orqivium-vdb-pgvecto-rs" },
-    { name = "orqivium-vdb-pgvector" },
-    { name = "orqivium-vdb-qdrant" },
-    { name = "orqivium-vdb-relyt" },
-    { name = "orqivium-vdb-tablestore" },
-    { name = "orqivium-vdb-tencent" },
-    { name = "orqivium-vdb-tidb-on-qdrant" },
-    { name = "orqivium-vdb-tidb-vector" },
-    { name = "orqivium-vdb-upstash" },
-    { name = "orqivium-vdb-vastbase" },
-    { name = "orqivium-vdb-vikingdb" },
-    { name = "orqivium-vdb-weaviate" },
-]
-vdb-analyticdb = [
-    { name = "orqivium-vdb-analyticdb" },
-]
-vdb-baidu = [
-    { name = "orqivium-vdb-baidu" },
-]
-vdb-chroma = [
-    { name = "orqivium-vdb-chroma" },
-]
-vdb-clickzetta = [
-    { name = "orqivium-vdb-clickzetta" },
-]
-vdb-couchbase = [
-    { name = "orqivium-vdb-couchbase" },
-]
-vdb-elasticsearch = [
-    { name = "orqivium-vdb-elasticsearch" },
-]
-vdb-hologres = [
-    { name = "orqivium-vdb-hologres" },
-]
-vdb-huawei-cloud = [
-    { name = "orqivium-vdb-huawei-cloud" },
-]
-vdb-iris = [
-    { name = "orqivium-vdb-iris" },
-]
-vdb-lindorm = [
-    { name = "orqivium-vdb-lindorm" },
-]
-vdb-matrixone = [
-    { name = "orqivium-vdb-matrixone" },
-]
-vdb-milvus = [
-    { name = "orqivium-vdb-milvus" },
-]
-vdb-myscale = [
-    { name = "orqivium-vdb-myscale" },
-]
-vdb-oceanbase = [
-    { name = "orqivium-vdb-oceanbase" },
-]
-vdb-opengauss = [
-    { name = "orqivium-vdb-opengauss" },
-]
-vdb-opensearch = [
-    { name = "orqivium-vdb-opensearch" },
-]
-vdb-oracle = [
-    { name = "orqivium-vdb-oracle" },
-]
-vdb-pgvecto-rs = [
-    { name = "orqivium-vdb-pgvecto-rs" },
-]
-vdb-pgvector = [
-    { name = "orqivium-vdb-pgvector" },
-]
-vdb-qdrant = [
-    { name = "orqivium-vdb-qdrant" },
-]
-vdb-relyt = [
-    { name = "orqivium-vdb-relyt" },
-]
-vdb-tablestore = [
-    { name = "orqivium-vdb-tablestore" },
-]
-vdb-tencent = [
-    { name = "orqivium-vdb-tencent" },
-]
-vdb-tidb-on-qdrant = [
-    { name = "orqivium-vdb-tidb-on-qdrant" },
-]
-vdb-tidb-vector = [
-    { name = "orqivium-vdb-tidb-vector" },
-]
-vdb-upstash = [
-    { name = "orqivium-vdb-upstash" },
-]
-vdb-vastbase = [
-    { name = "orqivium-vdb-vastbase" },
-]
-vdb-vikingdb = [
-    { name = "orqivium-vdb-vikingdb" },
-]
-vdb-weaviate = [
-    { name = "orqivium-vdb-weaviate" },
-]
-vdb-xinference = [
-    { name = "xinference-client" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "aliyun-log-python-sdk", specifier = "==0.9.44" },
-    { name = "azure-identity", specifier = ">=1.25.3,<2.0.0" },
-    { name = "bleach", specifier = ">=6.4.0,<7.0.0" },
-    { name = "boto3", specifier = ">=1.43.46,<2.0.0" },
-    { name = "celery", specifier = ">=5.6.3,<6.0.0" },
-    { name = "croniter", specifier = ">=6.2.2,<7.0.0" },
-    { name = "orqivium-agent", editable = "../orqivium-agent" },
-    { name = "fastopenapi", extras = ["flask"], specifier = "==0.7.0" },
-    { name = "flask", specifier = ">=3.1.3,<4.0.0" },
-    { name = "flask-compress", specifier = ">=1.24,<2.0.0" },
-    { name = "flask-cors", specifier = ">=6.0.5,<7.0.0" },
-    { name = "flask-login", specifier = "==0.6.3" },
-    { name = "flask-migrate", specifier = ">=4.1.0,<5.0.0" },
-    { name = "flask-orjson", specifier = ">=2.0.0,<3.0.0" },
-    { name = "flask-restx", git = "https://github.com/asukaminato0721/flask-restx?rev=27758e26f8f740d7525d5039c51a9e524b6e2b68" },
-    { name = "gevent", specifier = ">=26.4.0,<26.5.0" },
-    { name = "gevent-websocket", specifier = "==0.10.1" },
-    { name = "gmpy2", specifier = ">=2.3.0,<3.0.0" },
-    { name = "google-api-python-client", specifier = ">=2.198.0,<3.0.0" },
-    { name = "google-cloud-aiplatform", specifier = ">=1.160.0,<2.0.0" },
-    { name = "graphon", specifier = "==0.6.0" },
-    { name = "gunicorn", specifier = ">=26.0.0,<27.0.0" },
-    { name = "httpx", extras = ["socks"], specifier = "==0.28.1" },
-    { name = "httpx-sse", specifier = "==0.4.3" },
-    { name = "json-repair", specifier = "==0.60.1" },
-    { name = "opentelemetry-distro", specifier = "==0.62b1" },
-    { name = "opentelemetry-instrumentation-celery", specifier = "==0.62b1" },
-    { name = "opentelemetry-instrumentation-flask", specifier = "==0.62b1" },
-    { name = "opentelemetry-instrumentation-httpx", specifier = "==0.62b1" },
-    { name = "opentelemetry-instrumentation-redis", specifier = "==0.62b1" },
-    { name = "opentelemetry-instrumentation-sqlalchemy", specifier = "==0.62b1" },
-    { name = "opentelemetry-propagator-b3", specifier = ">=1.41.1,<2.0.0" },
-    { name = "psycogreen", specifier = ">=1.0.2,<2.0.0" },
-    { name = "psycopg2-binary", specifier = ">=2.9.12,<3.0.0" },
-    { name = "python-socketio", specifier = ">=5.13.0,<6.0.0" },
-    { name = "readabilipy", specifier = "==0.3.0" },
-    { name = "redis", extras = ["hiredis"], specifier = ">=7.4.0,<8.0.0" },
-    { name = "resend", specifier = ">=2.27.0,<3.0.0" },
-    { name = "sendgrid", specifier = ">=6.12.5,<7.0.0" },
-    { name = "sseclient-py", specifier = ">=1.8.0,<2.0.0" },
-    { name = "zstandard", specifier = "==0.25.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "boto3-stubs", specifier = ">=1.43.10" },
-    { name = "celery-types", specifier = ">=0.23.0" },
-    { name = "coverage", specifier = ">=7.13.4" },
-    { name = "dotenv-linter", specifier = ">=0.7.0" },
-    { name = "faker", specifier = ">=40.15.0" },
-    { name = "hypothesis", specifier = ">=6.152.4" },
-    { name = "import-linter", specifier = ">=2.3" },
-    { name = "lxml-stubs", specifier = ">=0.5.1" },
-    { name = "mypy", specifier = ">=1.20.2" },
-    { name = "pandas-stubs", specifier = ">=3.0.0" },
-    { name = "pyrefly", specifier = ">=1.0.0" },
-    { name = "pytest", specifier = ">=9.0.3" },
-    { name = "pytest-benchmark", specifier = ">=5.2.3" },
-    { name = "pytest-cov", specifier = ">=7.1.0" },
-    { name = "pytest-env", specifier = ">=1.6.0" },
-    { name = "pytest-mock", specifier = ">=3.15.1" },
-    { name = "pytest-timeout", specifier = ">=2.4.0" },
-    { name = "pytest-xdist", specifier = ">=3.8.0" },
-    { name = "ruff", specifier = ">=0.15.12" },
-    { name = "scipy-stubs", specifier = ">=1.17.1.4" },
-    { name = "testcontainers", specifier = ">=4.14.2" },
-    { name = "types-aiofiles", specifier = ">=25.1.0" },
-    { name = "types-beautifulsoup4", specifier = ">=4.12.0" },
-    { name = "types-cachetools", specifier = ">=7.0.0.20260503" },
-    { name = "types-cffi", specifier = ">=2.0.0.20260429" },
-    { name = "types-colorama", specifier = ">=0.4.15" },
-    { name = "types-defusedxml", specifier = ">=0.7.0" },
-    { name = "types-deprecated", specifier = ">=1.3.1" },
-    { name = "types-docutils", specifier = ">=0.22.3" },
-    { name = "types-flask-cors", specifier = ">=6.0.0" },
-    { name = "types-flask-migrate", specifier = ">=4.1.0" },
-    { name = "types-gevent", specifier = ">=26.4.0" },
-    { name = "types-greenlet", specifier = ">=3.5.0.20260428" },
-    { name = "types-html5lib", specifier = ">=1.1.11" },
-    { name = "types-jmespath", specifier = ">=1.1.0.20260408" },
-    { name = "types-markdown", specifier = ">=3.10.2" },
-    { name = "types-oauthlib", specifier = ">=3.3.0" },
-    { name = "types-objgraph", specifier = ">=3.6.0" },
-    { name = "types-olefile", specifier = ">=0.47.0" },
-    { name = "types-openpyxl", specifier = ">=3.1.5" },
-    { name = "types-pexpect", specifier = ">=4.9.0" },
-    { name = "types-protobuf", specifier = ">=7.34.1.20260503" },
-    { name = "types-psutil", specifier = ">=7.2.2" },
-    { name = "types-psycopg2", specifier = ">=2.9.21.20260422" },
-    { name = "types-pygments", specifier = ">=2.20.0" },
-    { name = "types-pymysql", specifier = ">=1.1.0" },
-    { name = "types-pyopenssl", specifier = ">=24.1.0" },
-    { name = "types-python-dateutil", specifier = ">=2.9.0" },
-    { name = "types-python-http-client", specifier = ">=3.3.7.20260408" },
-    { name = "types-pywin32", specifier = ">=311.0.0" },
-    { name = "types-pyyaml", specifier = ">=6.0.12" },
-    { name = "types-redis", specifier = ">=4.6.0.20241004" },
-    { name = "types-regex", specifier = ">=2026.4.4" },
-    { name = "types-setuptools", specifier = ">=82.0.0.20260408" },
-    { name = "types-shapely", specifier = ">=2.1.0" },
-    { name = "types-simplejson", specifier = ">=3.20.0.20260408" },
-    { name = "types-six", specifier = ">=1.17.0.20260408" },
-    { name = "types-tensorflow", specifier = ">=2.18.0.20260408" },
-    { name = "types-tqdm", specifier = ">=4.67.3.20260408" },
-    { name = "types-ujson", specifier = ">=5.10.0" },
-    { name = "xinference-client", specifier = ">=2.7.0" },
-]
-storage = [
-    { name = "azure-storage-blob", specifier = ">=12.30.0,<13.0.0" },
-    { name = "bce-python-sdk", specifier = "==0.9.72" },
-    { name = "cos-python-sdk-v5", specifier = ">=1.9.44,<2.0.0" },
-    { name = "esdk-obs-python", specifier = ">=3.26.6,<4.0.0" },
-    { name = "google-cloud-storage", specifier = ">=3.12.1,<4.0.0" },
-    { name = "opendal", specifier = "==0.46.0" },
-    { name = "oss2", specifier = ">=2.19.1,<3.0.0" },
-    { name = "supabase", specifier = ">=2.31.0,<3.0.0" },
-    { name = "tos", specifier = ">=2.9.2,<3.0.0" },
-]
-tools = [
-    { name = "cloudscraper", specifier = ">=1.2.71,<2.0.0" },
-    { name = "nltk", specifier = ">=3.9.1,<4.0.0" },
-]
-trace-aliyun = [{ name = "orqivium-trace-aliyun", editable = "providers/trace/trace-aliyun" }]
-trace-all = [
-    { name = "orqivium-trace-aliyun", editable = "providers/trace/trace-aliyun" },
-    { name = "orqivium-trace-arize-phoenix", editable = "providers/trace/trace-arize-phoenix" },
-    { name = "orqivium-trace-langfuse", editable = "providers/trace/trace-langfuse" },
-    { name = "orqivium-trace-langsmith", editable = "providers/trace/trace-langsmith" },
-    { name = "orqivium-trace-mlflow", editable = "providers/trace/trace-mlflow" },
-    { name = "orqivium-trace-opik", editable = "providers/trace/trace-opik" },
-    { name = "orqivium-trace-tencent", editable = "providers/trace/trace-tencent" },
-    { name = "orqivium-trace-weave", editable = "providers/trace/trace-weave" },
-]
-trace-arize-phoenix = [{ name = "orqivium-trace-arize-phoenix", editable = "providers/trace/trace-arize-phoenix" }]
-trace-langfuse = [{ name = "orqivium-trace-langfuse", editable = "providers/trace/trace-langfuse" }]
-trace-langsmith = [{ name = "orqivium-trace-langsmith", editable = "providers/trace/trace-langsmith" }]
-trace-mlflow = [{ name = "orqivium-trace-mlflow", editable = "providers/trace/trace-mlflow" }]
-trace-opik = [{ name = "orqivium-trace-opik", editable = "providers/trace/trace-opik" }]
-trace-tencent = [{ name = "orqivium-trace-tencent", editable = "providers/trace/trace-tencent" }]
-trace-weave = [{ name = "orqivium-trace-weave", editable = "providers/trace/trace-weave" }]
-vdb-alibabacloud-mysql = [{ name = "orqivium-vdb-alibabacloud-mysql", editable = "providers/vdb/vdb-alibabacloud-mysql" }]
-vdb-all = [
-    { name = "orqivium-vdb-alibabacloud-mysql", editable = "providers/vdb/vdb-alibabacloud-mysql" },
-    { name = "orqivium-vdb-analyticdb", editable = "providers/vdb/vdb-analyticdb" },
-    { name = "orqivium-vdb-baidu", editable = "providers/vdb/vdb-baidu" },
-    { name = "orqivium-vdb-chroma", editable = "providers/vdb/vdb-chroma" },
-    { name = "orqivium-vdb-clickzetta", editable = "providers/vdb/vdb-clickzetta" },
-    { name = "orqivium-vdb-couchbase", editable = "providers/vdb/vdb-couchbase" },
-    { name = "orqivium-vdb-elasticsearch", editable = "providers/vdb/vdb-elasticsearch" },
-    { name = "orqivium-vdb-hologres", editable = "providers/vdb/vdb-hologres" },
-    { name = "orqivium-vdb-huawei-cloud", editable = "providers/vdb/vdb-huawei-cloud" },
-    { name = "orqivium-vdb-iris", editable = "providers/vdb/vdb-iris" },
-    { name = "orqivium-vdb-lindorm", editable = "providers/vdb/vdb-lindorm" },
-    { name = "orqivium-vdb-matrixone", editable = "providers/vdb/vdb-matrixone" },
-    { name = "orqivium-vdb-milvus", editable = "providers/vdb/vdb-milvus" },
-    { name = "orqivium-vdb-myscale", editable = "providers/vdb/vdb-myscale" },
-    { name = "orqivium-vdb-oceanbase", editable = "providers/vdb/vdb-oceanbase" },
-    { name = "orqivium-vdb-opengauss", editable = "providers/vdb/vdb-opengauss" },
-    { name = "orqivium-vdb-opensearch", editable = "providers/vdb/vdb-opensearch" },
-    { name = "orqivium-vdb-oracle", editable = "providers/vdb/vdb-oracle" },
-    { name = "orqivium-vdb-pgvecto-rs", editable = "providers/vdb/vdb-pgvecto-rs" },
-    { name = "orqivium-vdb-pgvector", editable = "providers/vdb/vdb-pgvector" },
-    { name = "orqivium-vdb-qdrant", editable = "providers/vdb/vdb-qdrant" },
-    { name = "orqivium-vdb-relyt", editable = "providers/vdb/vdb-relyt" },
-    { name = "orqivium-vdb-tablestore", editable = "providers/vdb/vdb-tablestore" },
-    { name = "orqivium-vdb-tencent", editable = "providers/vdb/vdb-tencent" },
-    { name = "orqivium-vdb-tidb-on-qdrant", editable = "providers/vdb/vdb-tidb-on-qdrant" },
-    { name = "orqivium-vdb-tidb-vector", editable = "providers/vdb/vdb-tidb-vector" },
-    { name = "orqivium-vdb-upstash", editable = "providers/vdb/vdb-upstash" },
-    { name = "orqivium-vdb-vastbase", editable = "providers/vdb/vdb-vastbase" },
-    { name = "orqivium-vdb-vikingdb", editable = "providers/vdb/vdb-vikingdb" },
-    { name = "orqivium-vdb-weaviate", editable = "providers/vdb/vdb-weaviate" },
-]
-vdb-analyticdb = [{ name = "orqivium-vdb-analyticdb", editable = "providers/vdb/vdb-analyticdb" }]
-vdb-baidu = [{ name = "orqivium-vdb-baidu", editable = "providers/vdb/vdb-baidu" }]
-vdb-chroma = [{ name = "orqivium-vdb-chroma", editable = "providers/vdb/vdb-chroma" }]
-vdb-clickzetta = [{ name = "orqivium-vdb-clickzetta", editable = "providers/vdb/vdb-clickzetta" }]
-vdb-couchbase = [{ name = "orqivium-vdb-couchbase", editable = "providers/vdb/vdb-couchbase" }]
-vdb-elasticsearch = [{ name = "orqivium-vdb-elasticsearch", editable = "providers/vdb/vdb-elasticsearch" }]
-vdb-hologres = [{ name = "orqivium-vdb-hologres", editable = "providers/vdb/vdb-hologres" }]
-vdb-huawei-cloud = [{ name = "orqivium-vdb-huawei-cloud", editable = "providers/vdb/vdb-huawei-cloud" }]
-vdb-iris = [{ name = "orqivium-vdb-iris", editable = "providers/vdb/vdb-iris" }]
-vdb-lindorm = [{ name = "orqivium-vdb-lindorm", editable = "providers/vdb/vdb-lindorm" }]
-vdb-matrixone = [{ name = "orqivium-vdb-matrixone", editable = "providers/vdb/vdb-matrixone" }]
-vdb-milvus = [{ name = "orqivium-vdb-milvus", editable = "providers/vdb/vdb-milvus" }]
-vdb-myscale = [{ name = "orqivium-vdb-myscale", editable = "providers/vdb/vdb-myscale" }]
-vdb-oceanbase = [{ name = "orqivium-vdb-oceanbase", editable = "providers/vdb/vdb-oceanbase" }]
-vdb-opengauss = [{ name = "orqivium-vdb-opengauss", editable = "providers/vdb/vdb-opengauss" }]
-vdb-opensearch = [{ name = "orqivium-vdb-opensearch", editable = "providers/vdb/vdb-opensearch" }]
-vdb-oracle = [{ name = "orqivium-vdb-oracle", editable = "providers/vdb/vdb-oracle" }]
-vdb-pgvecto-rs = [{ name = "orqivium-vdb-pgvecto-rs", editable = "providers/vdb/vdb-pgvecto-rs" }]
-vdb-pgvector = [{ name = "orqivium-vdb-pgvector", editable = "providers/vdb/vdb-pgvector" }]
-vdb-qdrant = [{ name = "orqivium-vdb-qdrant", editable = "providers/vdb/vdb-qdrant" }]
-vdb-relyt = [{ name = "orqivium-vdb-relyt", editable = "providers/vdb/vdb-relyt" }]
-vdb-tablestore = [{ name = "orqivium-vdb-tablestore", editable = "providers/vdb/vdb-tablestore" }]
-vdb-tencent = [{ name = "orqivium-vdb-tencent", editable = "providers/vdb/vdb-tencent" }]
-vdb-tidb-on-qdrant = [{ name = "orqivium-vdb-tidb-on-qdrant", editable = "providers/vdb/vdb-tidb-on-qdrant" }]
-vdb-tidb-vector = [{ name = "orqivium-vdb-tidb-vector", editable = "providers/vdb/vdb-tidb-vector" }]
-vdb-upstash = [{ name = "orqivium-vdb-upstash", editable = "providers/vdb/vdb-upstash" }]
-vdb-vastbase = [{ name = "orqivium-vdb-vastbase", editable = "providers/vdb/vdb-vastbase" }]
-vdb-vikingdb = [{ name = "orqivium-vdb-vikingdb", editable = "providers/vdb/vdb-vikingdb" }]
-vdb-weaviate = [{ name = "orqivium-vdb-weaviate", editable = "providers/vdb/vdb-weaviate" }]
-vdb-xinference = [{ name = "xinference-client", specifier = ">=2.7.0,<3.0.0" }]
-
-[[package]]
-name = "orqivium-trace-aliyun"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-aliyun" }
-dependencies = [
-    { name = "opentelemetry-api" },
-    { name = "opentelemetry-exporter-otlp-proto-grpc" },
-    { name = "opentelemetry-sdk" },
-    { name = "opentelemetry-semantic-conventions" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "opentelemetry-api" },
-    { name = "opentelemetry-exporter-otlp-proto-grpc" },
-    { name = "opentelemetry-sdk" },
-    { name = "opentelemetry-semantic-conventions" },
-]
-
-[[package]]
-name = "orqivium-trace-arize-phoenix"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-arize-phoenix" }
-dependencies = [
-    { name = "arize-phoenix-otel" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "arize-phoenix-otel", specifier = "==0.15.0" }]
-
-[[package]]
-name = "orqivium-trace-langfuse"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-langfuse" }
-dependencies = [
-    { name = "langfuse" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "langfuse", specifier = ">=4.2.0,<5.0.0" }]
-
-[[package]]
-name = "orqivium-trace-langsmith"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-langsmith" }
-dependencies = [
-    { name = "langsmith" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "langsmith", specifier = "==0.8.18" }]
-
-[[package]]
-name = "orqivium-trace-mlflow"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-mlflow" }
-dependencies = [
-    { name = "mlflow-skinny" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "mlflow-skinny", specifier = ">=3.11.1,<4.0.0" }]
-
-[[package]]
-name = "orqivium-trace-opik"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-opik" }
-dependencies = [
-    { name = "opik" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "opik", specifier = "~=1.11.2" }]
-
-[[package]]
-name = "orqivium-trace-tencent"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-tencent" }
-dependencies = [
-    { name = "opentelemetry-api" },
-    { name = "opentelemetry-exporter-otlp-proto-grpc" },
-    { name = "opentelemetry-sdk" },
-    { name = "opentelemetry-semantic-conventions" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "opentelemetry-api" },
-    { name = "opentelemetry-exporter-otlp-proto-grpc" },
-    { name = "opentelemetry-sdk" },
-    { name = "opentelemetry-semantic-conventions" },
-]
-
-[[package]]
-name = "orqivium-trace-weave"
-version = "0.0.1"
-source = { editable = "providers/trace/trace-weave" }
-dependencies = [
-    { name = "weave" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "weave", specifier = "==0.52.36" }]
-
-[[package]]
-name = "orqivium-vdb-alibabacloud-mysql"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-alibabacloud-mysql" }
-dependencies = [
-    { name = "mysql-connector-python" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "mysql-connector-python", specifier = ">=9.3.0,<10.0.0" }]
-
-[[package]]
-name = "orqivium-vdb-analyticdb"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-analyticdb" }
-dependencies = [
-    { name = "alibabacloud-gpdb20160503" },
-    { name = "alibabacloud-tea-openapi" },
-    { name = "clickhouse-connect" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "alibabacloud-gpdb20160503", specifier = "~=5.2.0" },
-    { name = "alibabacloud-tea-openapi", specifier = "==0.4.4" },
-    { name = "clickhouse-connect", specifier = "==0.15.1" },
-]
-
-[[package]]
-name = "orqivium-vdb-baidu"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-baidu" }
-dependencies = [
-    { name = "pymochow" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pymochow", specifier = "==2.4.0" }]
-
-[[package]]
-name = "orqivium-vdb-chroma"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-chroma" }
-dependencies = [
-    { name = "chromadb" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "chromadb", specifier = "==0.5.20" }]
-
-[[package]]
-name = "orqivium-vdb-clickzetta"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-clickzetta" }
-dependencies = [
-    { name = "clickzetta-connector-python" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "clickzetta-connector-python", specifier = "==0.8.104" }]
-
-[[package]]
-name = "orqivium-vdb-couchbase"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-couchbase" }
-dependencies = [
-    { name = "couchbase" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "couchbase", specifier = "~=4.6.0" }]
-
-[[package]]
-name = "orqivium-vdb-elasticsearch"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-elasticsearch" }
-dependencies = [
-    { name = "elasticsearch" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "elasticsearch", specifier = "==8.14.0" }]
-
-[[package]]
-name = "orqivium-vdb-hologres"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-hologres" }
-dependencies = [
-    { name = "holo-search-sdk" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "holo-search-sdk", specifier = "==0.4.2" }]
-
-[[package]]
-name = "orqivium-vdb-huawei-cloud"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-huawei-cloud" }
-dependencies = [
-    { name = "elasticsearch" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "elasticsearch", specifier = "==8.14.0" }]
-
-[[package]]
-name = "orqivium-vdb-iris"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-iris" }
-dependencies = [
-    { name = "intersystems-irispython" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "intersystems-irispython", specifier = ">=5.1.0,<6.0.0" }]
-
-[[package]]
-name = "orqivium-vdb-lindorm"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-lindorm" }
-dependencies = [
-    { name = "opensearch-py" },
-    { name = "tenacity" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "opensearch-py", specifier = "==3.1.0" },
-    { name = "tenacity", specifier = ">=8.0.0,<9.0.0" },
-]
-
-[[package]]
-name = "orqivium-vdb-matrixone"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-matrixone" }
-dependencies = [
-    { name = "mo-vector" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "mo-vector", specifier = "==0.1.13" }]
-
-[[package]]
-name = "orqivium-vdb-milvus"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-milvus" }
-dependencies = [
-    { name = "pymilvus" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pymilvus", specifier = "~=2.6.12" }]
-
-[[package]]
-name = "orqivium-vdb-myscale"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-myscale" }
-dependencies = [
-    { name = "clickhouse-connect" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "clickhouse-connect", specifier = "==0.15.1" }]
-
-[[package]]
-name = "orqivium-vdb-oceanbase"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-oceanbase" }
-dependencies = [
-    { name = "mysql-connector-python" },
-    { name = "pyobvector" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "mysql-connector-python", specifier = ">=9.3.0,<10.0.0" },
-    { name = "pyobvector", specifier = "==0.2.25" },
-]
-
-[[package]]
-name = "orqivium-vdb-opengauss"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-opengauss" }
-
-[[package]]
-name = "orqivium-vdb-opensearch"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-opensearch" }
-dependencies = [
-    { name = "opensearch-py" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "opensearch-py", specifier = "==3.1.0" }]
-
-[[package]]
-name = "orqivium-vdb-oracle"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-oracle" }
-dependencies = [
-    { name = "oracledb" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "oracledb", specifier = "==3.4.2" }]
-
-[[package]]
-name = "orqivium-vdb-pgvecto-rs"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-pgvecto-rs" }
-dependencies = [
-    { name = "pgvecto-rs", extra = ["sqlalchemy"] },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pgvecto-rs", extras = ["sqlalchemy"], specifier = "==0.2.2" }]
-
-[[package]]
-name = "orqivium-vdb-pgvector"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-pgvector" }
-dependencies = [
-    { name = "pgvector" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pgvector", specifier = "==0.4.2" }]
-
-[[package]]
-name = "orqivium-vdb-qdrant"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-qdrant" }
-dependencies = [
-    { name = "qdrant-client" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "qdrant-client", specifier = "==1.9.0" }]
-
-[[package]]
-name = "orqivium-vdb-relyt"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-relyt" }
-
-[[package]]
-name = "orqivium-vdb-tablestore"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-tablestore" }
-dependencies = [
-    { name = "tablestore" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "tablestore", specifier = "==6.4.4" }]
-
-[[package]]
-name = "orqivium-vdb-tencent"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-tencent" }
-dependencies = [
-    { name = "tcvectordb" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "tcvectordb", specifier = "~=2.1.0" }]
-
-[[package]]
-name = "orqivium-vdb-tidb-on-qdrant"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-tidb-on-qdrant" }
-dependencies = [
-    { name = "qdrant-client" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "qdrant-client", specifier = "==1.9.0" }]
-
-[[package]]
-name = "orqivium-vdb-tidb-vector"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-tidb-vector" }
-dependencies = [
-    { name = "tidb-vector" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "tidb-vector", specifier = "==0.0.15" }]
-
-[[package]]
-name = "orqivium-vdb-upstash"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-upstash" }
-dependencies = [
-    { name = "upstash-vector" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "upstash-vector", specifier = "==0.8.0" }]
-
-[[package]]
-name = "orqivium-vdb-vastbase"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-vastbase" }
-dependencies = [
-    { name = "pyobvector" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "pyobvector", specifier = "==0.2.25" }]
-
-[[package]]
-name = "orqivium-vdb-vikingdb"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-vikingdb" }
-dependencies = [
-    { name = "volcengine-compat" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "volcengine-compat", specifier = "~=1.0.0" }]
-
-[[package]]
-name = "orqivium-vdb-weaviate"
-version = "0.0.1"
-source = { editable = "providers/vdb/vdb-weaviate" }
-dependencies = [
-    { name = "weaviate-client" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "weaviate-client", specifier = "==4.20.5" }]
-
-[[package]]
 name = "diskcache-weave"
 version = "5.6.3.post1"
 source = { registry = "https://pypi.org/simple" }
@@ -2891,7 +1912,7 @@ wheels = [
 
 [[package]]
 name = "google-cloud-storage"
-version = "3.12.1"
+version = "3.17.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-api-core" },
@@ -2901,9 +1922,9 @@ dependencies = [
     { name = "google-resumable-media" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/ac/60b4cb0a6c8c6bb7cedb8971ba5e34a94096acf76e2cc242bcf1e6fc5c49/google_cloud_storage-3.12.1.tar.gz", hash = "sha256:1d81491c7663bc26c5056d00b834356f2253b910ef467f9cf9928a87fca1e04b", size = 17339353, upload-time = "2026-07-08T17:03:59.142Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/55/e1/7460613a818ed8d38ee888e672ddb89966f8f92f751ba127c1bf57f4bec2/google_cloud_storage-3.17.0.tar.gz", hash = "sha256:4373aa6328e070c31c97aa236f1600a239dfd3c85e5870cdf3dc2a928dfe0bca", size = 17355535, upload-time = "2026-10-08T18:12:54.643Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/80/6e/ca176e95bafac0fe7befeee7e0420e686de147571cd2908e308c5fe71bda/google_cloud_storage-3.12.1-py3-none-any.whl", hash = "sha256:9297ae0c2ce3f5400b1f2bb3a3e6d2cd256614366e03cd30600871df8e903afb", size = 340845, upload-time = "2026-07-08T17:03:31.418Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/21/c6869b66d723d93d4e63fba0dc4b539debeaf03e8b9af53de906a9910ec7/google_cloud_storage-3.17.0-py3-none-any.whl", hash = "sha256:0b89283fccf84745bae75bbefdbda8393e5323471071a2ba24ab437407141171", size = 345704, upload-time = "2026-10-08T18:12:26.717Z" },
 ]
 
 [[package]]
@@ -3981,16 +3002,16 @@ wheels = [
 
 [[package]]
 name = "msal"
-version = "1.35.1"
+version = "1.39.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
     { name = "pyjwt", extra = ["crypto"] },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3c/aa/5a646093ac218e4a329391d5a31e5092a89db7d2ef1637a90b82cd0b6f94/msal-1.35.1.tar.gz", hash = "sha256:70cac18ab80a053bff86219ba64cfe3da1f307c74b009e2da57ef040eb1b5656", size = 165658, upload-time = "2026-03-04T23:38:51.812Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/85/747d28986a44b715cc51cf57aa021c8fd94e9614064261ceec77320e8b0b/msal-1.39.0.tar.gz", hash = "sha256:6ab7de335e6d7f5717e2c7e1dbf86e4dda2f6acf3c56773b78dc53ebc6395b5f", size = 205360, upload-time = "2026-09-17T16:07:45.1Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/96/86/16815fddf056ca998853c6dc525397edf0b43559bb4073a80d2bc7fe8009/msal-1.35.1-py3-none-any.whl", hash = "sha256:8f4e82f34b10c19e326ec69f44dc6b30171f2f7098f3720ea8a9f0c11832caa3", size = 119909, upload-time = "2026-03-04T23:38:50.452Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/32/178457385925ce301c7b3232bd85665d4df57da39568b62dcfc74031873f/msal-1.39.0-py3-none-any.whl", hash = "sha256:2d2577886906cd7293850dffa2da29119966c213bfc6ec0cecf8bf7621e1ca77", size = 131629, upload-time = "2026-09-17T16:07:46.722Z" },
 ]
 
 [[package]]
@@ -4241,18 +3262,19 @@ wheels = [
 
 [[package]]
 name = "opendal"
-version = "0.46.0"
+version = "0.47.10"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/33/db/9c37efe16afe6371d66a0be94fa701c281108820198f18443dc997fbf3d8/opendal-0.46.0.tar.gz", hash = "sha256:334aa4c5b3cc0776598ef8d3c154f074f6a9d87981b951d70db1407efed3b06c", size = 989391, upload-time = "2025-07-17T06:58:52.913Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/50/a4/942f93e22e1bc52590cebc581816570f507315645c75cf7910f9623ff452/opendal-0.47.10.tar.gz", hash = "sha256:1d267dc292e671d0d0bb4d5c6192913560682b9d0faf9d51eab14c3af77b3cc6", size = 2097679, upload-time = "2026-09-22T06:30:40.843Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/05/a8d9c6a935a181d38b55c2cb7121394a6bdd819909ff453a17e78f45672a/opendal-0.46.0-cp311-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:8cd4db71694c93e99055349714c7f7c7177e4767428e9e4bc592e4055edb6dba", size = 26502380, upload-time = "2025-07-17T06:58:16.173Z" },
-    { url = "https://files.pythonhosted.org/packages/57/8d/cf684b246fa38ab946f3d11671230d07b5b14d2aeb152b68bd51f4b2210b/opendal-0.46.0-cp311-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:3019f923a7e1c5db86a36cee95d0c899ca7379e355bda9eb37e16d076c1f42f3", size = 12684482, upload-time = "2025-07-17T06:58:18.462Z" },
-    { url = "https://files.pythonhosted.org/packages/ad/71/36a97a8258cd0f0dd902561d0329a339f5a39a9896f0380763f526e9af89/opendal-0.46.0-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4e202ded0be5410546193f563258e9a78a57337f5c2bb553b8802a420c2ef683", size = 14114685, upload-time = "2025-07-17T06:58:20.728Z" },
-    { url = "https://files.pythonhosted.org/packages/b7/fa/9a30c17428a12246c6ae17b406e7214a9a3caecec37af6860d27e99f9b66/opendal-0.46.0-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:7db426ba8171d665953836653a596ef1bad3732a1c4dd2e3fa68bc20beee7afc", size = 13191783, upload-time = "2025-07-17T06:58:23.181Z" },
-    { url = "https://files.pythonhosted.org/packages/f8/32/4f7351ee242b63c817896afb373e5d5f28e1d9ca4e51b69a7b2e934694cf/opendal-0.46.0-cp311-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:898444dc072201044ed8c1dcce0929ebda8b10b92ba9c95248cf7fcbbc9dc1d7", size = 13358943, upload-time = "2025-07-17T06:58:25.281Z" },
-    { url = "https://files.pythonhosted.org/packages/77/e5/f650cf79ffbf7c7c8d7466fe9b4fa04cda97d950f915b8b3e2ced29f0f3e/opendal-0.46.0-cp311-abi3-musllinux_1_1_armv7l.whl", hash = "sha256:998e7a80a3468fd3f8604873aec6777fd25d3101fdbb1b63a4dc5fef14797086", size = 13015627, upload-time = "2025-07-17T06:58:27.28Z" },
-    { url = "https://files.pythonhosted.org/packages/c4/d1/77b731016edd494514447322d6b02a2a49c41ad6deeaa824dd2958479574/opendal-0.46.0-cp311-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:093098658482e7b87d16bf2931b5ef0ee22ed6a695f945874c696da72a6d057a", size = 14314675, upload-time = "2025-07-17T06:58:29.622Z" },
-    { url = "https://files.pythonhosted.org/packages/1e/93/328f7c72ccf04b915ab88802342d8f79322b7fba5509513b509681651224/opendal-0.46.0-cp311-abi3-win_amd64.whl", hash = "sha256:f5e58abc86db005879340a9187372a8c105c456c762943139a48dde63aad790d", size = 14904045, upload-time = "2025-07-17T06:58:31.692Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/24/75074b6d13bdc275030e51f5507e7b37510f7958bc2ffed417094c2e834d/opendal-0.47.10-cp311-abi3-macosx_10_12_x86_64.whl", hash = "sha256:f02d12f059c1acf85e13658885319a87cdb01e104e21dc05ca6de334743ac7f7", size = 18757242, upload-time = "2026-09-22T06:29:36.381Z" },
+    { url = "https://files.pythonhosted.org/packages/93/9f/c4f5a6294b59886c911cc11d0b79af86a3768256ceb21d24bf6850f08794/opendal-0.47.10-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:3b6d7ad0f2c24b8a0b27f637a35bd63685d657635eca7fe37f80505fd6d3cc7f", size = 17210329, upload-time = "2026-09-22T06:29:39.593Z" },
+    { url = "https://files.pythonhosted.org/packages/72/e5/56cbc681061f8fdb6893f225dbd795f1295d322c1ad6b835eb4017d2953c/opendal-0.47.10-cp311-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:0d0e1227d31eb681aa391b9b4ab0924f44cc0040647f76648e4ef534afb4e4e3", size = 17879557, upload-time = "2026-09-22T06:29:42.797Z" },
+    { url = "https://files.pythonhosted.org/packages/30/2a/7ce88edd25cf926005d5b4e4a958019fe2d6e814b85d727bf217fe57a908/opendal-0.47.10-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6be1af6dd5b17272bd791eb712d15fdd348d99ea51918ffd24d08a298e6ace2d", size = 19205920, upload-time = "2026-09-22T06:29:46.494Z" },
+    { url = "https://files.pythonhosted.org/packages/e9/e7/fff9d0a7aab3a11e96928acff2282abb6c017f6412695a95a7d5ee9bcf9b/opendal-0.47.10-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:fcb7a249ca997ce519b04d092322b66ac2116e0e488de59ab7d90eddfdef4f77", size = 18145117, upload-time = "2026-09-22T06:29:50.221Z" },
+    { url = "https://files.pythonhosted.org/packages/40/88/0f12338096fae50f9fd86d172be90fab1733e8cc23064a249043ab383f96/opendal-0.47.10-cp311-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:868827f69345b3ce7795f9759bad27597258037fa161f64b02e4f68dcb720742", size = 18493656, upload-time = "2026-09-22T06:29:54.038Z" },
+    { url = "https://files.pythonhosted.org/packages/6f/10/1b0ed5565a6f7b72298d1d7c08b8b4586af7a44908a93de78500123aaa5f/opendal-0.47.10-cp311-abi3-musllinux_1_1_armv7l.whl", hash = "sha256:39ea5a2a389b0bec8718206ea24f67464335f2c566297011b75897559af86d14", size = 18179209, upload-time = "2026-09-22T06:29:57.598Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/14/0efb7139cdec31d53c2f5164236ff37af4df1781532b9110211c11aec5da/opendal-0.47.10-cp311-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:836adc6c2024a28a3c2a78fcad02b341618ddfdd7a689de74af947ac99e1c92b", size = 19428940, upload-time = "2026-09-22T06:30:01.526Z" },
+    { url = "https://files.pythonhosted.org/packages/11/40/69dbf8ec578c1cda7f7a2768530a0e91100bf747caf4280080a876056a7f/opendal-0.47.10-cp311-abi3-win_amd64.whl", hash = "sha256:0856195b5cae631f8d539d0233b1bbb5fe2f0625ea0eda0152d83d89c1276d44", size = 20522853, upload-time = "2026-09-22T06:30:05.447Z" },
 ]
 
 [[package]]
@@ -4695,6 +3717,985 @@ wheels = [
 ]
 
 [[package]]
+name = "orqivium-agent"
+version = "2.0.0"
+source = { editable = "../orqivium-agent" }
+dependencies = [
+    { name = "httpx" },
+    { name = "httpx2" },
+    { name = "pydantic" },
+    { name = "pydantic-ai-slim" },
+    { name = "typing-extensions" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "fastapi", marker = "extra == 'server'", specifier = "==0.136.0" },
+    { name = "graphon", marker = "extra == 'server'", specifier = "==0.5.2" },
+    { name = "grpclib", extras = ["protobuf"], marker = "extra == 'grpc'", specifier = ">=0.4.9,<0.5.0" },
+    { name = "httpx", specifier = "==0.28.1" },
+    { name = "httpx2", specifier = ">=2.5.0,<3.0.0" },
+    { name = "jsonschema", marker = "extra == 'server'", specifier = ">=4.23.0,<5.0.0" },
+    { name = "jwcrypto", marker = "extra == 'server'", specifier = ">=1.5.6,<2" },
+    { name = "logfire", extras = ["fastapi", "httpx", "redis"], marker = "extra == 'server'", specifier = ">=4.37.0,<5.0.0" },
+    { name = "protobuf", marker = "extra == 'grpc'", specifier = ">=6.33.5,<7.0.0" },
+    { name = "pydantic", specifier = ">=2.12.5,<2.13" },
+    { name = "pydantic-ai-slim", specifier = ">=1.102.0,<2.0.0" },
+    { name = "pydantic-ai-slim", extras = ["anthropic", "google", "openai"], marker = "extra == 'server'", specifier = ">=1.85.1,<2.0.0" },
+    { name = "pydantic-settings", marker = "extra == 'server'", specifier = ">=2.12.0,<3.0.0" },
+    { name = "redis", marker = "extra == 'server'", specifier = ">=7.4.0,<8.0.0" },
+    { name = "typing-extensions", specifier = ">=4.12.2,<5.0.0" },
+    { name = "uvicorn", extras = ["standard"], marker = "extra == 'server'", specifier = "==0.46.0" },
+]
+provides-extras = ["grpc", "server"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "basedpyright", specifier = ">=1.39.3" },
+    { name = "coverage", extras = ["toml"], specifier = ">=7.10.7" },
+    { name = "grpcio-tools", specifier = ">=1.81.0,<2.0.0" },
+    { name = "pytest", specifier = ">=9.0.3" },
+    { name = "pytest-examples", specifier = ">=0.0.18" },
+    { name = "pytest-mock", specifier = ">=3.14.0" },
+    { name = "ruff", specifier = ">=0.15.11" },
+]
+docs = [
+    { name = "mkdocs", specifier = ">=1.6.1,<2" },
+    { name = "mkdocs-glightbox", specifier = ">=0.4.0" },
+    { name = "mkdocs-material", specifier = ">=9.7.0" },
+    { name = "mkdocstrings-python", specifier = ">=2.0.0" },
+]
+
+[[package]]
+name = "orqivium-api"
+version = "2.0.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "aliyun-log-python-sdk" },
+    { name = "azure-identity" },
+    { name = "bleach" },
+    { name = "boto3" },
+    { name = "celery" },
+    { name = "croniter" },
+    { name = "fastopenapi", extra = ["flask"] },
+    { name = "flask" },
+    { name = "flask-compress" },
+    { name = "flask-cors" },
+    { name = "flask-login" },
+    { name = "flask-migrate" },
+    { name = "flask-orjson" },
+    { name = "flask-restx" },
+    { name = "gevent" },
+    { name = "gevent-websocket" },
+    { name = "gmpy2" },
+    { name = "google-api-python-client" },
+    { name = "google-cloud-aiplatform" },
+    { name = "graphon" },
+    { name = "gunicorn" },
+    { name = "httpx", extra = ["socks"] },
+    { name = "httpx-sse" },
+    { name = "json-repair" },
+    { name = "opentelemetry-distro" },
+    { name = "opentelemetry-instrumentation-celery" },
+    { name = "opentelemetry-instrumentation-flask" },
+    { name = "opentelemetry-instrumentation-httpx" },
+    { name = "opentelemetry-instrumentation-redis" },
+    { name = "opentelemetry-instrumentation-sqlalchemy" },
+    { name = "opentelemetry-propagator-b3" },
+    { name = "orqivium-agent" },
+    { name = "psycogreen" },
+    { name = "psycopg2-binary" },
+    { name = "python-socketio" },
+    { name = "readabilipy" },
+    { name = "redis", extra = ["hiredis"] },
+    { name = "resend" },
+    { name = "sendgrid" },
+    { name = "sseclient-py" },
+    { name = "zstandard" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "boto3-stubs" },
+    { name = "celery-types" },
+    { name = "coverage" },
+    { name = "dotenv-linter" },
+    { name = "faker" },
+    { name = "hypothesis" },
+    { name = "import-linter" },
+    { name = "lxml-stubs" },
+    { name = "mypy" },
+    { name = "pandas-stubs" },
+    { name = "pyrefly" },
+    { name = "pytest" },
+    { name = "pytest-benchmark" },
+    { name = "pytest-cov" },
+    { name = "pytest-env" },
+    { name = "pytest-mock" },
+    { name = "pytest-timeout" },
+    { name = "pytest-xdist" },
+    { name = "ruff" },
+    { name = "scipy-stubs" },
+    { name = "testcontainers" },
+    { name = "types-aiofiles" },
+    { name = "types-beautifulsoup4" },
+    { name = "types-cachetools" },
+    { name = "types-cffi" },
+    { name = "types-colorama" },
+    { name = "types-defusedxml" },
+    { name = "types-deprecated" },
+    { name = "types-docutils" },
+    { name = "types-flask-cors" },
+    { name = "types-flask-migrate" },
+    { name = "types-gevent" },
+    { name = "types-greenlet" },
+    { name = "types-html5lib" },
+    { name = "types-jmespath" },
+    { name = "types-markdown" },
+    { name = "types-oauthlib" },
+    { name = "types-objgraph" },
+    { name = "types-olefile" },
+    { name = "types-openpyxl" },
+    { name = "types-pexpect" },
+    { name = "types-protobuf" },
+    { name = "types-psutil" },
+    { name = "types-psycopg2" },
+    { name = "types-pygments" },
+    { name = "types-pymysql" },
+    { name = "types-pyopenssl" },
+    { name = "types-python-dateutil" },
+    { name = "types-python-http-client" },
+    { name = "types-pywin32" },
+    { name = "types-pyyaml" },
+    { name = "types-redis" },
+    { name = "types-regex" },
+    { name = "types-setuptools" },
+    { name = "types-shapely" },
+    { name = "types-simplejson" },
+    { name = "types-six" },
+    { name = "types-tensorflow" },
+    { name = "types-tqdm" },
+    { name = "types-ujson" },
+    { name = "xinference-client" },
+]
+storage = [
+    { name = "azure-storage-blob" },
+    { name = "bce-python-sdk" },
+    { name = "cos-python-sdk-v5" },
+    { name = "esdk-obs-python" },
+    { name = "google-cloud-storage" },
+    { name = "opendal" },
+    { name = "oss2" },
+    { name = "supabase" },
+    { name = "tos" },
+]
+tools = [
+    { name = "cloudscraper" },
+    { name = "nltk" },
+]
+trace-aliyun = [
+    { name = "orqivium-trace-aliyun" },
+]
+trace-all = [
+    { name = "orqivium-trace-aliyun" },
+    { name = "orqivium-trace-arize-phoenix" },
+    { name = "orqivium-trace-langfuse" },
+    { name = "orqivium-trace-langsmith" },
+    { name = "orqivium-trace-mlflow" },
+    { name = "orqivium-trace-opik" },
+    { name = "orqivium-trace-tencent" },
+    { name = "orqivium-trace-weave" },
+]
+trace-arize-phoenix = [
+    { name = "orqivium-trace-arize-phoenix" },
+]
+trace-langfuse = [
+    { name = "orqivium-trace-langfuse" },
+]
+trace-langsmith = [
+    { name = "orqivium-trace-langsmith" },
+]
+trace-mlflow = [
+    { name = "orqivium-trace-mlflow" },
+]
+trace-opik = [
+    { name = "orqivium-trace-opik" },
+]
+trace-tencent = [
+    { name = "orqivium-trace-tencent" },
+]
+trace-weave = [
+    { name = "orqivium-trace-weave" },
+]
+vdb-alibabacloud-mysql = [
+    { name = "orqivium-vdb-alibabacloud-mysql" },
+]
+vdb-all = [
+    { name = "orqivium-vdb-alibabacloud-mysql" },
+    { name = "orqivium-vdb-analyticdb" },
+    { name = "orqivium-vdb-baidu" },
+    { name = "orqivium-vdb-chroma" },
+    { name = "orqivium-vdb-clickzetta" },
+    { name = "orqivium-vdb-couchbase" },
+    { name = "orqivium-vdb-elasticsearch" },
+    { name = "orqivium-vdb-hologres" },
+    { name = "orqivium-vdb-huawei-cloud" },
+    { name = "orqivium-vdb-iris" },
+    { name = "orqivium-vdb-lindorm" },
+    { name = "orqivium-vdb-matrixone" },
+    { name = "orqivium-vdb-milvus" },
+    { name = "orqivium-vdb-myscale" },
+    { name = "orqivium-vdb-oceanbase" },
+    { name = "orqivium-vdb-opengauss" },
+    { name = "orqivium-vdb-opensearch" },
+    { name = "orqivium-vdb-oracle" },
+    { name = "orqivium-vdb-pgvecto-rs" },
+    { name = "orqivium-vdb-pgvector" },
+    { name = "orqivium-vdb-qdrant" },
+    { name = "orqivium-vdb-relyt" },
+    { name = "orqivium-vdb-tablestore" },
+    { name = "orqivium-vdb-tencent" },
+    { name = "orqivium-vdb-tidb-on-qdrant" },
+    { name = "orqivium-vdb-tidb-vector" },
+    { name = "orqivium-vdb-upstash" },
+    { name = "orqivium-vdb-vastbase" },
+    { name = "orqivium-vdb-vikingdb" },
+    { name = "orqivium-vdb-weaviate" },
+]
+vdb-analyticdb = [
+    { name = "orqivium-vdb-analyticdb" },
+]
+vdb-baidu = [
+    { name = "orqivium-vdb-baidu" },
+]
+vdb-chroma = [
+    { name = "orqivium-vdb-chroma" },
+]
+vdb-clickzetta = [
+    { name = "orqivium-vdb-clickzetta" },
+]
+vdb-couchbase = [
+    { name = "orqivium-vdb-couchbase" },
+]
+vdb-elasticsearch = [
+    { name = "orqivium-vdb-elasticsearch" },
+]
+vdb-hologres = [
+    { name = "orqivium-vdb-hologres" },
+]
+vdb-huawei-cloud = [
+    { name = "orqivium-vdb-huawei-cloud" },
+]
+vdb-iris = [
+    { name = "orqivium-vdb-iris" },
+]
+vdb-lindorm = [
+    { name = "orqivium-vdb-lindorm" },
+]
+vdb-matrixone = [
+    { name = "orqivium-vdb-matrixone" },
+]
+vdb-milvus = [
+    { name = "orqivium-vdb-milvus" },
+]
+vdb-myscale = [
+    { name = "orqivium-vdb-myscale" },
+]
+vdb-oceanbase = [
+    { name = "orqivium-vdb-oceanbase" },
+]
+vdb-opengauss = [
+    { name = "orqivium-vdb-opengauss" },
+]
+vdb-opensearch = [
+    { name = "orqivium-vdb-opensearch" },
+]
+vdb-oracle = [
+    { name = "orqivium-vdb-oracle" },
+]
+vdb-pgvecto-rs = [
+    { name = "orqivium-vdb-pgvecto-rs" },
+]
+vdb-pgvector = [
+    { name = "orqivium-vdb-pgvector" },
+]
+vdb-qdrant = [
+    { name = "orqivium-vdb-qdrant" },
+]
+vdb-relyt = [
+    { name = "orqivium-vdb-relyt" },
+]
+vdb-tablestore = [
+    { name = "orqivium-vdb-tablestore" },
+]
+vdb-tencent = [
+    { name = "orqivium-vdb-tencent" },
+]
+vdb-tidb-on-qdrant = [
+    { name = "orqivium-vdb-tidb-on-qdrant" },
+]
+vdb-tidb-vector = [
+    { name = "orqivium-vdb-tidb-vector" },
+]
+vdb-upstash = [
+    { name = "orqivium-vdb-upstash" },
+]
+vdb-vastbase = [
+    { name = "orqivium-vdb-vastbase" },
+]
+vdb-vikingdb = [
+    { name = "orqivium-vdb-vikingdb" },
+]
+vdb-weaviate = [
+    { name = "orqivium-vdb-weaviate" },
+]
+vdb-xinference = [
+    { name = "xinference-client" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "aliyun-log-python-sdk", specifier = "==0.9.44" },
+    { name = "azure-identity", specifier = ">=1.25.3,<2.0.0" },
+    { name = "bleach", specifier = ">=6.4.0,<7.0.0" },
+    { name = "boto3", specifier = ">=1.43.46,<2.0.0" },
+    { name = "celery", specifier = ">=5.6.3,<6.0.0" },
+    { name = "croniter", specifier = ">=6.2.2,<7.0.0" },
+    { name = "fastopenapi", extras = ["flask"], specifier = "==0.7.0" },
+    { name = "flask", specifier = ">=3.1.3,<4.0.0" },
+    { name = "flask-compress", specifier = ">=1.24,<2.0.0" },
+    { name = "flask-cors", specifier = ">=6.0.5,<7.0.0" },
+    { name = "flask-login", specifier = "==0.6.3" },
+    { name = "flask-migrate", specifier = ">=4.1.0,<5.0.0" },
+    { name = "flask-orjson", specifier = ">=2.0.0,<3.0.0" },
+    { name = "flask-restx", git = "https://github.com/asukaminato0721/flask-restx?rev=27758e26f8f740d7525d5039c51a9e524b6e2b68" },
+    { name = "gevent", specifier = ">=26.4.0,<26.5.0" },
+    { name = "gevent-websocket", specifier = "==0.10.1" },
+    { name = "gmpy2", specifier = ">=2.3.0,<3.0.0" },
+    { name = "google-api-python-client", specifier = ">=2.198.0,<3.0.0" },
+    { name = "google-cloud-aiplatform", specifier = ">=1.160.0,<2.0.0" },
+    { name = "graphon", specifier = "==0.6.0" },
+    { name = "gunicorn", specifier = ">=26.0.0,<27.0.0" },
+    { name = "httpx", extras = ["socks"], specifier = "==0.28.1" },
+    { name = "httpx-sse", specifier = "==0.4.3" },
+    { name = "json-repair", specifier = "==0.60.1" },
+    { name = "opentelemetry-distro", specifier = "==0.62b1" },
+    { name = "opentelemetry-instrumentation-celery", specifier = "==0.62b1" },
+    { name = "opentelemetry-instrumentation-flask", specifier = "==0.62b1" },
+    { name = "opentelemetry-instrumentation-httpx", specifier = "==0.62b1" },
+    { name = "opentelemetry-instrumentation-redis", specifier = "==0.62b1" },
+    { name = "opentelemetry-instrumentation-sqlalchemy", specifier = "==0.62b1" },
+    { name = "opentelemetry-propagator-b3", specifier = ">=1.41.1,<2.0.0" },
+    { name = "orqivium-agent", editable = "../orqivium-agent" },
+    { name = "psycogreen", specifier = ">=1.0.2,<2.0.0" },
+    { name = "psycopg2-binary", specifier = ">=2.9.12,<3.0.0" },
+    { name = "python-socketio", specifier = ">=5.13.0,<6.0.0" },
+    { name = "readabilipy", specifier = "==0.3.0" },
+    { name = "redis", extras = ["hiredis"], specifier = ">=7.4.0,<8.0.0" },
+    { name = "resend", specifier = ">=2.27.0,<3.0.0" },
+    { name = "sendgrid", specifier = ">=6.12.5,<7.0.0" },
+    { name = "sseclient-py", specifier = ">=1.8.0,<2.0.0" },
+    { name = "zstandard", specifier = "==0.25.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "boto3-stubs", specifier = ">=1.43.10" },
+    { name = "celery-types", specifier = ">=0.23.0" },
+    { name = "coverage", specifier = ">=7.13.4" },
+    { name = "dotenv-linter", specifier = ">=0.7.0" },
+    { name = "faker", specifier = ">=40.15.0" },
+    { name = "hypothesis", specifier = ">=6.152.4" },
+    { name = "import-linter", specifier = ">=2.3" },
+    { name = "lxml-stubs", specifier = ">=0.5.1" },
+    { name = "mypy", specifier = ">=1.20.2" },
+    { name = "pandas-stubs", specifier = ">=3.0.0" },
+    { name = "pyrefly", specifier = ">=1.0.0" },
+    { name = "pytest", specifier = ">=9.0.3" },
+    { name = "pytest-benchmark", specifier = ">=5.2.3" },
+    { name = "pytest-cov", specifier = ">=7.1.0" },
+    { name = "pytest-env", specifier = ">=1.6.0" },
+    { name = "pytest-mock", specifier = ">=3.15.1" },
+    { name = "pytest-timeout", specifier = ">=2.4.0" },
+    { name = "pytest-xdist", specifier = ">=3.8.0" },
+    { name = "ruff", specifier = ">=0.15.12" },
+    { name = "scipy-stubs", specifier = ">=1.17.1.4" },
+    { name = "testcontainers", specifier = ">=4.14.2" },
+    { name = "types-aiofiles", specifier = ">=25.1.0" },
+    { name = "types-beautifulsoup4", specifier = ">=4.12.0" },
+    { name = "types-cachetools", specifier = ">=7.0.0.20260503" },
+    { name = "types-cffi", specifier = ">=2.0.0.20260429" },
+    { name = "types-colorama", specifier = ">=0.4.15" },
+    { name = "types-defusedxml", specifier = ">=0.7.0" },
+    { name = "types-deprecated", specifier = ">=1.3.1" },
+    { name = "types-docutils", specifier = ">=0.22.3" },
+    { name = "types-flask-cors", specifier = ">=6.0.0" },
+    { name = "types-flask-migrate", specifier = ">=4.1.0" },
+    { name = "types-gevent", specifier = ">=26.4.0" },
+    { name = "types-greenlet", specifier = ">=3.5.0.20260428" },
+    { name = "types-html5lib", specifier = ">=1.1.11" },
+    { name = "types-jmespath", specifier = ">=1.1.0.20260408" },
+    { name = "types-markdown", specifier = ">=3.10.2" },
+    { name = "types-oauthlib", specifier = ">=3.3.0" },
+    { name = "types-objgraph", specifier = ">=3.6.0" },
+    { name = "types-olefile", specifier = ">=0.47.0" },
+    { name = "types-openpyxl", specifier = ">=3.1.5" },
+    { name = "types-pexpect", specifier = ">=4.9.0" },
+    { name = "types-protobuf", specifier = ">=7.34.1.20260503" },
+    { name = "types-psutil", specifier = ">=7.2.2" },
+    { name = "types-psycopg2", specifier = ">=2.9.21.20260422" },
+    { name = "types-pygments", specifier = ">=2.20.0" },
+    { name = "types-pymysql", specifier = ">=1.1.0" },
+    { name = "types-pyopenssl", specifier = ">=24.1.0" },
+    { name = "types-python-dateutil", specifier = ">=2.9.0" },
+    { name = "types-python-http-client", specifier = ">=3.3.7.20260408" },
+    { name = "types-pywin32", specifier = ">=311.0.0" },
+    { name = "types-pyyaml", specifier = ">=6.0.12" },
+    { name = "types-redis", specifier = ">=4.6.0.20241004" },
+    { name = "types-regex", specifier = ">=2026.4.4" },
+    { name = "types-setuptools", specifier = ">=82.0.0.20260408" },
+    { name = "types-shapely", specifier = ">=2.1.0" },
+    { name = "types-simplejson", specifier = ">=3.20.0.20260408" },
+    { name = "types-six", specifier = ">=1.17.0.20260408" },
+    { name = "types-tensorflow", specifier = ">=2.18.0.20260408" },
+    { name = "types-tqdm", specifier = ">=4.67.3.20260408" },
+    { name = "types-ujson", specifier = ">=5.10.0" },
+    { name = "xinference-client", specifier = ">=2.7.0" },
+]
+storage = [
+    { name = "azure-storage-blob", specifier = ">=12.30.0,<13.0.0" },
+    { name = "bce-python-sdk", specifier = "==0.9.79" },
+    { name = "cos-python-sdk-v5", specifier = ">=1.9.44,<2.0.0" },
+    { name = "esdk-obs-python", specifier = ">=3.26.6,<4.0.0" },
+    { name = "google-cloud-storage", specifier = ">=3.12.1,<4.0.0" },
+    { name = "opendal", specifier = "==0.47.10" },
+    { name = "oss2", specifier = ">=2.19.1,<3.0.0" },
+    { name = "supabase", specifier = ">=2.31.0,<3.0.0" },
+    { name = "tos", specifier = ">=2.9.2,<3.0.0" },
+]
+tools = [
+    { name = "cloudscraper", specifier = ">=1.2.71,<2.0.0" },
+    { name = "nltk", specifier = ">=3.9.1,<4.0.0" },
+]
+trace-aliyun = [{ name = "orqivium-trace-aliyun", editable = "providers/trace/trace-aliyun" }]
+trace-all = [
+    { name = "orqivium-trace-aliyun", editable = "providers/trace/trace-aliyun" },
+    { name = "orqivium-trace-arize-phoenix", editable = "providers/trace/trace-arize-phoenix" },
+    { name = "orqivium-trace-langfuse", editable = "providers/trace/trace-langfuse" },
+    { name = "orqivium-trace-langsmith", editable = "providers/trace/trace-langsmith" },
+    { name = "orqivium-trace-mlflow", editable = "providers/trace/trace-mlflow" },
+    { name = "orqivium-trace-opik", editable = "providers/trace/trace-opik" },
+    { name = "orqivium-trace-tencent", editable = "providers/trace/trace-tencent" },
+    { name = "orqivium-trace-weave", editable = "providers/trace/trace-weave" },
+]
+trace-arize-phoenix = [{ name = "orqivium-trace-arize-phoenix", editable = "providers/trace/trace-arize-phoenix" }]
+trace-langfuse = [{ name = "orqivium-trace-langfuse", editable = "providers/trace/trace-langfuse" }]
+trace-langsmith = [{ name = "orqivium-trace-langsmith", editable = "providers/trace/trace-langsmith" }]
+trace-mlflow = [{ name = "orqivium-trace-mlflow", editable = "providers/trace/trace-mlflow" }]
+trace-opik = [{ name = "orqivium-trace-opik", editable = "providers/trace/trace-opik" }]
+trace-tencent = [{ name = "orqivium-trace-tencent", editable = "providers/trace/trace-tencent" }]
+trace-weave = [{ name = "orqivium-trace-weave", editable = "providers/trace/trace-weave" }]
+vdb-alibabacloud-mysql = [{ name = "orqivium-vdb-alibabacloud-mysql", editable = "providers/vdb/vdb-alibabacloud-mysql" }]
+vdb-all = [
+    { name = "orqivium-vdb-alibabacloud-mysql", editable = "providers/vdb/vdb-alibabacloud-mysql" },
+    { name = "orqivium-vdb-analyticdb", editable = "providers/vdb/vdb-analyticdb" },
+    { name = "orqivium-vdb-baidu", editable = "providers/vdb/vdb-baidu" },
+    { name = "orqivium-vdb-chroma", editable = "providers/vdb/vdb-chroma" },
+    { name = "orqivium-vdb-clickzetta", editable = "providers/vdb/vdb-clickzetta" },
+    { name = "orqivium-vdb-couchbase", editable = "providers/vdb/vdb-couchbase" },
+    { name = "orqivium-vdb-elasticsearch", editable = "providers/vdb/vdb-elasticsearch" },
+    { name = "orqivium-vdb-hologres", editable = "providers/vdb/vdb-hologres" },
+    { name = "orqivium-vdb-huawei-cloud", editable = "providers/vdb/vdb-huawei-cloud" },
+    { name = "orqivium-vdb-iris", editable = "providers/vdb/vdb-iris" },
+    { name = "orqivium-vdb-lindorm", editable = "providers/vdb/vdb-lindorm" },
+    { name = "orqivium-vdb-matrixone", editable = "providers/vdb/vdb-matrixone" },
+    { name = "orqivium-vdb-milvus", editable = "providers/vdb/vdb-milvus" },
+    { name = "orqivium-vdb-myscale", editable = "providers/vdb/vdb-myscale" },
+    { name = "orqivium-vdb-oceanbase", editable = "providers/vdb/vdb-oceanbase" },
+    { name = "orqivium-vdb-opengauss", editable = "providers/vdb/vdb-opengauss" },
+    { name = "orqivium-vdb-opensearch", editable = "providers/vdb/vdb-opensearch" },
+    { name = "orqivium-vdb-oracle", editable = "providers/vdb/vdb-oracle" },
+    { name = "orqivium-vdb-pgvecto-rs", editable = "providers/vdb/vdb-pgvecto-rs" },
+    { name = "orqivium-vdb-pgvector", editable = "providers/vdb/vdb-pgvector" },
+    { name = "orqivium-vdb-qdrant", editable = "providers/vdb/vdb-qdrant" },
+    { name = "orqivium-vdb-relyt", editable = "providers/vdb/vdb-relyt" },
+    { name = "orqivium-vdb-tablestore", editable = "providers/vdb/vdb-tablestore" },
+    { name = "orqivium-vdb-tencent", editable = "providers/vdb/vdb-tencent" },
+    { name = "orqivium-vdb-tidb-on-qdrant", editable = "providers/vdb/vdb-tidb-on-qdrant" },
+    { name = "orqivium-vdb-tidb-vector", editable = "providers/vdb/vdb-tidb-vector" },
+    { name = "orqivium-vdb-upstash", editable = "providers/vdb/vdb-upstash" },
+    { name = "orqivium-vdb-vastbase", editable = "providers/vdb/vdb-vastbase" },
+    { name = "orqivium-vdb-vikingdb", editable = "providers/vdb/vdb-vikingdb" },
+    { name = "orqivium-vdb-weaviate", editable = "providers/vdb/vdb-weaviate" },
+]
+vdb-analyticdb = [{ name = "orqivium-vdb-analyticdb", editable = "providers/vdb/vdb-analyticdb" }]
+vdb-baidu = [{ name = "orqivium-vdb-baidu", editable = "providers/vdb/vdb-baidu" }]
+vdb-chroma = [{ name = "orqivium-vdb-chroma", editable = "providers/vdb/vdb-chroma" }]
+vdb-clickzetta = [{ name = "orqivium-vdb-clickzetta", editable = "providers/vdb/vdb-clickzetta" }]
+vdb-couchbase = [{ name = "orqivium-vdb-couchbase", editable = "providers/vdb/vdb-couchbase" }]
+vdb-elasticsearch = [{ name = "orqivium-vdb-elasticsearch", editable = "providers/vdb/vdb-elasticsearch" }]
+vdb-hologres = [{ name = "orqivium-vdb-hologres", editable = "providers/vdb/vdb-hologres" }]
+vdb-huawei-cloud = [{ name = "orqivium-vdb-huawei-cloud", editable = "providers/vdb/vdb-huawei-cloud" }]
+vdb-iris = [{ name = "orqivium-vdb-iris", editable = "providers/vdb/vdb-iris" }]
+vdb-lindorm = [{ name = "orqivium-vdb-lindorm", editable = "providers/vdb/vdb-lindorm" }]
+vdb-matrixone = [{ name = "orqivium-vdb-matrixone", editable = "providers/vdb/vdb-matrixone" }]
+vdb-milvus = [{ name = "orqivium-vdb-milvus", editable = "providers/vdb/vdb-milvus" }]
+vdb-myscale = [{ name = "orqivium-vdb-myscale", editable = "providers/vdb/vdb-myscale" }]
+vdb-oceanbase = [{ name = "orqivium-vdb-oceanbase", editable = "providers/vdb/vdb-oceanbase" }]
+vdb-opengauss = [{ name = "orqivium-vdb-opengauss", editable = "providers/vdb/vdb-opengauss" }]
+vdb-opensearch = [{ name = "orqivium-vdb-opensearch", editable = "providers/vdb/vdb-opensearch" }]
+vdb-oracle = [{ name = "orqivium-vdb-oracle", editable = "providers/vdb/vdb-oracle" }]
+vdb-pgvecto-rs = [{ name = "orqivium-vdb-pgvecto-rs", editable = "providers/vdb/vdb-pgvecto-rs" }]
+vdb-pgvector = [{ name = "orqivium-vdb-pgvector", editable = "providers/vdb/vdb-pgvector" }]
+vdb-qdrant = [{ name = "orqivium-vdb-qdrant", editable = "providers/vdb/vdb-qdrant" }]
+vdb-relyt = [{ name = "orqivium-vdb-relyt", editable = "providers/vdb/vdb-relyt" }]
+vdb-tablestore = [{ name = "orqivium-vdb-tablestore", editable = "providers/vdb/vdb-tablestore" }]
+vdb-tencent = [{ name = "orqivium-vdb-tencent", editable = "providers/vdb/vdb-tencent" }]
+vdb-tidb-on-qdrant = [{ name = "orqivium-vdb-tidb-on-qdrant", editable = "providers/vdb/vdb-tidb-on-qdrant" }]
+vdb-tidb-vector = [{ name = "orqivium-vdb-tidb-vector", editable = "providers/vdb/vdb-tidb-vector" }]
+vdb-upstash = [{ name = "orqivium-vdb-upstash", editable = "providers/vdb/vdb-upstash" }]
+vdb-vastbase = [{ name = "orqivium-vdb-vastbase", editable = "providers/vdb/vdb-vastbase" }]
+vdb-vikingdb = [{ name = "orqivium-vdb-vikingdb", editable = "providers/vdb/vdb-vikingdb" }]
+vdb-weaviate = [{ name = "orqivium-vdb-weaviate", editable = "providers/vdb/vdb-weaviate" }]
+vdb-xinference = [{ name = "xinference-client", specifier = ">=2.7.0,<3.0.0" }]
+
+[[package]]
+name = "orqivium-trace-aliyun"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-aliyun" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-exporter-otlp-proto-grpc" },
+    { name = "opentelemetry-sdk" },
+    { name = "opentelemetry-semantic-conventions" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-exporter-otlp-proto-grpc" },
+    { name = "opentelemetry-sdk" },
+    { name = "opentelemetry-semantic-conventions" },
+]
+
+[[package]]
+name = "orqivium-trace-arize-phoenix"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-arize-phoenix" }
+dependencies = [
+    { name = "arize-phoenix-otel" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "arize-phoenix-otel", specifier = "==0.15.0" }]
+
+[[package]]
+name = "orqivium-trace-langfuse"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-langfuse" }
+dependencies = [
+    { name = "langfuse" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "langfuse", specifier = ">=4.2.0,<5.0.0" }]
+
+[[package]]
+name = "orqivium-trace-langsmith"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-langsmith" }
+dependencies = [
+    { name = "langsmith" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "langsmith", specifier = "==0.8.18" }]
+
+[[package]]
+name = "orqivium-trace-mlflow"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-mlflow" }
+dependencies = [
+    { name = "mlflow-skinny" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mlflow-skinny", specifier = ">=3.11.1,<4.0.0" }]
+
+[[package]]
+name = "orqivium-trace-opik"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-opik" }
+dependencies = [
+    { name = "opik" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "opik", specifier = "~=1.11.2" }]
+
+[[package]]
+name = "orqivium-trace-tencent"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-tencent" }
+dependencies = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-exporter-otlp-proto-grpc" },
+    { name = "opentelemetry-sdk" },
+    { name = "opentelemetry-semantic-conventions" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "opentelemetry-api" },
+    { name = "opentelemetry-exporter-otlp-proto-grpc" },
+    { name = "opentelemetry-sdk" },
+    { name = "opentelemetry-semantic-conventions" },
+]
+
+[[package]]
+name = "orqivium-trace-weave"
+version = "0.0.1"
+source = { editable = "providers/trace/trace-weave" }
+dependencies = [
+    { name = "weave" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "weave", specifier = "==0.52.36" }]
+
+[[package]]
+name = "orqivium-vdb-alibabacloud-mysql"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-alibabacloud-mysql" }
+dependencies = [
+    { name = "mysql-connector-python" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mysql-connector-python", specifier = ">=9.3.0,<10.0.0" }]
+
+[[package]]
+name = "orqivium-vdb-analyticdb"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-analyticdb" }
+dependencies = [
+    { name = "alibabacloud-gpdb20160503" },
+    { name = "alibabacloud-tea-openapi" },
+    { name = "clickhouse-connect" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "alibabacloud-gpdb20160503", specifier = "~=5.2.0" },
+    { name = "alibabacloud-tea-openapi", specifier = "==0.4.4" },
+    { name = "clickhouse-connect", specifier = "==0.15.1" },
+]
+
+[[package]]
+name = "orqivium-vdb-baidu"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-baidu" }
+dependencies = [
+    { name = "pymochow" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pymochow", specifier = "==2.4.0" }]
+
+[[package]]
+name = "orqivium-vdb-chroma"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-chroma" }
+dependencies = [
+    { name = "chromadb" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "chromadb", specifier = "==0.5.20" }]
+
+[[package]]
+name = "orqivium-vdb-clickzetta"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-clickzetta" }
+dependencies = [
+    { name = "clickzetta-connector-python" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "clickzetta-connector-python", specifier = "==0.8.104" }]
+
+[[package]]
+name = "orqivium-vdb-couchbase"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-couchbase" }
+dependencies = [
+    { name = "couchbase" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "couchbase", specifier = "~=4.6.0" }]
+
+[[package]]
+name = "orqivium-vdb-elasticsearch"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-elasticsearch" }
+dependencies = [
+    { name = "elasticsearch" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "elasticsearch", specifier = "==8.14.0" }]
+
+[[package]]
+name = "orqivium-vdb-hologres"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-hologres" }
+dependencies = [
+    { name = "holo-search-sdk" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "holo-search-sdk", specifier = "==0.4.2" }]
+
+[[package]]
+name = "orqivium-vdb-huawei-cloud"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-huawei-cloud" }
+dependencies = [
+    { name = "elasticsearch" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "elasticsearch", specifier = "==8.14.0" }]
+
+[[package]]
+name = "orqivium-vdb-iris"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-iris" }
+dependencies = [
+    { name = "intersystems-irispython" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "intersystems-irispython", specifier = ">=5.1.0,<6.0.0" }]
+
+[[package]]
+name = "orqivium-vdb-lindorm"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-lindorm" }
+dependencies = [
+    { name = "opensearch-py" },
+    { name = "tenacity" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "opensearch-py", specifier = "==3.1.0" },
+    { name = "tenacity", specifier = ">=8.0.0,<9.0.0" },
+]
+
+[[package]]
+name = "orqivium-vdb-matrixone"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-matrixone" }
+dependencies = [
+    { name = "mo-vector" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mo-vector", specifier = "==0.1.13" }]
+
+[[package]]
+name = "orqivium-vdb-milvus"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-milvus" }
+dependencies = [
+    { name = "pymilvus" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pymilvus", specifier = "~=2.6.12" }]
+
+[[package]]
+name = "orqivium-vdb-myscale"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-myscale" }
+dependencies = [
+    { name = "clickhouse-connect" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "clickhouse-connect", specifier = "==0.15.1" }]
+
+[[package]]
+name = "orqivium-vdb-oceanbase"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-oceanbase" }
+dependencies = [
+    { name = "mysql-connector-python" },
+    { name = "pyobvector" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "mysql-connector-python", specifier = ">=9.3.0,<10.0.0" },
+    { name = "pyobvector", specifier = "==0.2.25" },
+]
+
+[[package]]
+name = "orqivium-vdb-opengauss"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-opengauss" }
+
+[[package]]
+name = "orqivium-vdb-opensearch"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-opensearch" }
+dependencies = [
+    { name = "opensearch-py" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "opensearch-py", specifier = "==3.1.0" }]
+
+[[package]]
+name = "orqivium-vdb-oracle"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-oracle" }
+dependencies = [
+    { name = "oracledb" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "oracledb", specifier = "==3.4.2" }]
+
+[[package]]
+name = "orqivium-vdb-pgvecto-rs"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-pgvecto-rs" }
+dependencies = [
+    { name = "pgvecto-rs", extra = ["sqlalchemy"] },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pgvecto-rs", extras = ["sqlalchemy"], specifier = "==0.2.2" }]
+
+[[package]]
+name = "orqivium-vdb-pgvector"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-pgvector" }
+dependencies = [
+    { name = "pgvector" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pgvector", specifier = "==0.4.2" }]
+
+[[package]]
+name = "orqivium-vdb-qdrant"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-qdrant" }
+dependencies = [
+    { name = "qdrant-client" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "qdrant-client", specifier = "==1.9.0" }]
+
+[[package]]
+name = "orqivium-vdb-relyt"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-relyt" }
+
+[[package]]
+name = "orqivium-vdb-tablestore"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-tablestore" }
+dependencies = [
+    { name = "tablestore" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "tablestore", specifier = "==6.4.4" }]
+
+[[package]]
+name = "orqivium-vdb-tencent"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-tencent" }
+dependencies = [
+    { name = "tcvectordb" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "tcvectordb", specifier = "~=2.1.0" }]
+
+[[package]]
+name = "orqivium-vdb-tidb-on-qdrant"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-tidb-on-qdrant" }
+dependencies = [
+    { name = "qdrant-client" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "qdrant-client", specifier = "==1.9.0" }]
+
+[[package]]
+name = "orqivium-vdb-tidb-vector"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-tidb-vector" }
+dependencies = [
+    { name = "tidb-vector" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "tidb-vector", specifier = "==0.0.15" }]
+
+[[package]]
+name = "orqivium-vdb-upstash"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-upstash" }
+dependencies = [
+    { name = "upstash-vector" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "upstash-vector", specifier = "==0.8.0" }]
+
+[[package]]
+name = "orqivium-vdb-vastbase"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-vastbase" }
+dependencies = [
+    { name = "pyobvector" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyobvector", specifier = "==0.2.25" }]
+
+[[package]]
+name = "orqivium-vdb-vikingdb"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-vikingdb" }
+dependencies = [
+    { name = "volcengine-compat" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "volcengine-compat", specifier = "~=1.0.0" }]
+
+[[package]]
+name = "orqivium-vdb-weaviate"
+version = "0.0.1"
+source = { editable = "providers/vdb/vdb-weaviate" }
+dependencies = [
+    { name = "weaviate-client" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "weaviate-client", specifier = "==4.20.5" }]
+
+[[package]]
 name = "oss2"
 version = "2.19.1"
 source = { registry = "https://pypi.org/simple" }
@@ -4895,7 +4896,7 @@ wheels = [
 
 [[package]]
 name = "postgrest"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecation" },
@@ -4903,9 +4904,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e2/22/88c470d8838d2678a44e0172d061630b8837cba3fb7fb492e28f6578c309/postgrest-2.31.0.tar.gz", hash = "sha256:2f395d84b2ee34fc57622ff2f711df603e2ede625f98e5015240741888f7bd0c", size = 14419, upload-time = "2026-06-04T13:37:20.474Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/45/9010c2b79d53d0674b9dbc5e4eaa7a0a3b31f98d63707e346d3e02210380/postgrest-2.32.0.tar.gz", hash = "sha256:20c6966d0e33d5037386fbe5bd41edd05d72748e014fbdc9d4c55308690dbe7a", size = 15072, upload-time = "2026-10-02T19:18:54.155Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ea/3e/41909586cb148db0259e0208310067afda4cc097f4c7a779e829c1e68c46/postgrest-2.31.0-py3-none-any.whl", hash = "sha256:c2fd47c94e13ee8335111c4f03c9a24ea9766ce9d35fc3cd7330057c9e7ea0c3", size = 23098, upload-time = "2026-06-04T13:37:19.452Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/07/219db7654f4877d590fa4a8b33012bca3ef44d0130a701d9133824a7b108/postgrest-2.32.0-py3-none-any.whl", hash = "sha256:2386155853917089510ee4e322a0f44909e9495a12ec4b3e1294ab79551a500e", size = 23769, upload-time = "2026-10-02T19:18:53.181Z" },
 ]
 
 [[package]]
@@ -5793,16 +5794,16 @@ wheels = [
 
 [[package]]
 name = "realtime"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "typing-extensions" },
     { name = "websockets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/df/34/54a1eaaefa24db5cb12596fd74792e08efa53ed30dc5bce2c0a68ded6146/realtime-2.31.0.tar.gz", hash = "sha256:9e641cb4d77ca0fe768515f8cf9f83550c79f49ce1550a95afc2dc0e252be8c9", size = 18716, upload-time = "2026-06-04T13:37:22.089Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0c/70/5ef463afea434f61666ee110c2a513d2307c81e3086d19719204777c8020/realtime-2.32.0.tar.gz", hash = "sha256:42fb260cd39c287497a1c3e9e51733cfbb8ead4259fc2a43106fb83dc5cb04f7", size = 20949, upload-time = "2026-10-02T19:18:55.952Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/13/60/164246615e8b059f6d53d34648a0784260421ec98a07eb1e45160f063221/realtime-2.31.0-py3-none-any.whl", hash = "sha256:f6e494b53d6a6e80b6efcee6711c8dd40413a52e766271de1bce8ced6c36cc1d", size = 22374, upload-time = "2026-06-04T13:37:21.162Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/92/ab21e7ebfac76cb011f0acf578d2520ddf07f0e043d6bf756c2339607299/realtime-2.32.0-py3-none-any.whl", hash = "sha256:3f26f7c8693eae2553867c3be5bfb476dd886860c3d2d612256639b455cf5930", size = 23897, upload-time = "2026-10-02T19:18:55.008Z" },
 ]
 
 [[package]]
@@ -6284,7 +6285,7 @@ wheels = [
 
 [[package]]
 name = "storage3"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "deprecation" },
@@ -6292,9 +6293,9 @@ dependencies = [
     { name = "pydantic" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/13/30/fee43d523d3f680a833a4aae5bf8094de0b9031b0c2bddb3e0bc6e829e1b/storage3-2.31.0.tar.gz", hash = "sha256:d2161e2ea650dc115a1787c30e09b118365589ac772f4dd8643e3a503ecfc667", size = 20348, upload-time = "2026-06-04T13:37:23.703Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/af/07/3afbc26ea08193de9f4915b14058cb4aab5d29de314320601603b2d4dd12/storage3-2.32.0.tar.gz", hash = "sha256:9188dfe6931f3366fd9740d21f737bf969dbbd69f9ecb97746dbb7eeb5f01731", size = 20156, upload-time = "2026-10-02T19:18:57.7Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/b2/60d86a3a99ae743e8a00a6df912f85269b3bc882ba217b8ce1690881c669/storage3-2.31.0-py3-none-any.whl", hash = "sha256:4bf46e8bea320743179a6beafdc7531c5242495e00e0cc22af7c7a9d69d4ed84", size = 28492, upload-time = "2026-06-04T13:37:22.792Z" },
+    { url = "https://files.pythonhosted.org/packages/61/ac/9d26f000790935c6982b5a6ac30f28caeefb9517101f9911055bfd37ef33/storage3-2.32.0-py3-none-any.whl", hash = "sha256:a72109e4223b461488ad338ada324c27380dda0be3a8928498f19ec3b8946c98", size = 28462, upload-time = "2026-10-02T19:18:56.781Z" },
 ]
 
 [[package]]
@@ -6308,7 +6309,7 @@ wheels = [
 
 [[package]]
 name = "supabase"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -6319,37 +6320,37 @@ dependencies = [
     { name = "supabase-functions" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fe/8e/54a2f950629689b1613434a61fc3bff5f92f84ba6b20213f5b2add05c1bb/supabase-2.31.0.tar.gz", hash = "sha256:3467b09d00482b9a0138235bdbde7a350426f93cf2a1342372eaddfc669f1206", size = 9805, upload-time = "2026-06-04T13:37:25.22Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/5f/386eaa8369476e3eec9e708f140c7483ca024547b9318084c0bb266a0ccb/supabase-2.32.0.tar.gz", hash = "sha256:8272451d1a478972bb5ffa3be013eb1fe62924fb55c30edd6a03cabbce390074", size = 9821, upload-time = "2026-10-02T19:18:59.298Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/95/06/5e6f4bf89dedadf81f893832115c1866da1aa093142c9989c2818780dae3/supabase-2.31.0-py3-none-any.whl", hash = "sha256:25f2a99207a75f2d9377e2332783b4389cf56b02cbebdaf0c1743112dcbb704e", size = 16728, upload-time = "2026-06-04T13:37:24.278Z" },
+    { url = "https://files.pythonhosted.org/packages/c9/ef/ead5e1faf2dff49c6068de83f6bcac31cae2198cbe64ca461de5526a2233/supabase-2.32.0-py3-none-any.whl", hash = "sha256:6552fa758deb4c9b92bd5ba4da1d0c92b8d7037b4fa63fb071b90c087f316ec5", size = 16752, upload-time = "2026-10-02T19:18:58.372Z" },
 ]
 
 [[package]]
 name = "supabase-auth"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx", extra = ["http2"] },
     { name = "pydantic" },
     { name = "pyjwt", extra = ["crypto"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/61/8a/408689cf39820f0d46d2731d6747ff94dbefc87ae977b4b5c4066da5b070/supabase_auth-2.31.0.tar.gz", hash = "sha256:0945b33fa96239c76dc8eaf96d7d2c94991950d24b4cfe4a5c2da9aa5e909663", size = 39151, upload-time = "2026-06-04T13:37:27.375Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/8b/7f3958dce7f23196b1dbe93d7178aab14082b792c3b142e9622ba45f2294/supabase_auth-2.32.0.tar.gz", hash = "sha256:c68ea37b7bc61292b1d85390315c5c62756253fc9ab5613108b86f7534c72cf0", size = 39266, upload-time = "2026-10-02T19:19:01.128Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ca/5e/22f3b0546bb1f0985f06fb1ebf5f6405a3b1bb7a5db01142c26cf148e988/supabase_auth-2.31.0-py3-none-any.whl", hash = "sha256:5e9c8b4ecdee6af04dbcb06455ce78cb15674806fcb6b425170455307d70b0ee", size = 48363, upload-time = "2026-06-04T13:37:26.26Z" },
+    { url = "https://files.pythonhosted.org/packages/05/a5/b5c2b2ea7e2877e0994b5816592914cf7b414dba53b22af733fb0629361a/supabase_auth-2.32.0-py3-none-any.whl", hash = "sha256:da3ede5e2976bf4d6b11c0ae5bc8f0f6612175bbb194aba2994dcce2629de86f", size = 48477, upload-time = "2026-10-02T19:18:59.94Z" },
 ]
 
 [[package]]
 name = "supabase-functions"
-version = "2.31.0"
+version = "2.32.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx", extra = ["http2"] },
     { name = "strenum" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/84/5d/61c2446ed26a57fa5543f9c270a731320911569202340d15341f72cdba7c/supabase_functions-2.31.0.tar.gz", hash = "sha256:4ad027b3ae3bd28b31233339f4db1da6965affd3546f655b421baf40cee2690f", size = 4683, upload-time = "2026-06-04T13:37:28.878Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/91/39da94fc6412a3e012ff6b4a3ae7ab008409869638b6b4a2b6d64beb6811/supabase_functions-2.32.0.tar.gz", hash = "sha256:78eb2f408894d25550d91736500dc0f6896ba3fc07ca63cd31c1173447dceaa0", size = 4978, upload-time = "2026-10-02T19:19:02.823Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/79/1a8162ce7d705381a4f2668c0da68e097b103c1aa701418a31da52905c7b/supabase_functions-2.31.0-py3-none-any.whl", hash = "sha256:3fdc4c4766152bfda63bdd0e286fc8a06f50e1280711fae4a1dfc9b7e9ebabc6", size = 8794, upload-time = "2026-06-04T13:37:28.022Z" },
+    { url = "https://files.pythonhosted.org/packages/64/cf/3d9f6ceb52c6913040f90674579fe64d4fda2c0ae5aa32a1cc7faa30fb31/supabase_functions-2.32.0-py3-none-any.whl", hash = "sha256:d3ca04e3128f90d84a96a150bfd4e7407a9dec84a342f548cb538ee1e6300d88", size = 9241, upload-time = "2026-10-02T19:19:01.994Z" },
 ]
 
 [[package]]
@@ -6539,7 +6540,7 @@ wheels = [
 
 [[package]]
 name = "tos"
-version = "2.9.2"
+version = "2.9.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "crcmod" },
@@ -6549,7 +6550,7 @@ dependencies = [
     { name = "six" },
     { name = "wrapt" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/89/ee/dfbbead6cca6d5a533eff9de5e33f995697fc5dc7c25f73666fdf5be492c/tos-2.9.2.tar.gz", hash = "sha256:eff764e5b41cc8573b9d2dfa7bbb9174a453cd4da698e111f426e31ca0ed1af7", size = 164263, upload-time = "2026-06-03T06:15:24.439Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/12/33/f680d45b8d1233596142b70c4e87ac892df00654f25ad3d5cf00455c3d2f/tos-2.9.3.tar.gz", hash = "sha256:fc048bd71f932c5c50b3098f3cb5303b856bee2b60dc5ae4b18ea4b34835e13c", size = 179445, upload-time = "2026-09-20T02:54:08.416Z" }
 
 [[package]]
 name = "tqdm"
